@@ -1,0 +1,131 @@
+/* ============================================================
+   PFENNIGFUCHSER · Website-Styles
+   Verbindliche Quelle für Werte: 02_Design/CI.md + Design System
+   Kein Dunkelmodus — Pfennigfuchser ist Papier.
+   ============================================================ */
+
+@font-face{
+  font-family:"DejaVu Sans Mono";
+  src:url("fonts/DejaVuSansMono.woff2") format("woff2");
+  font-weight:400;font-style:normal;font-display:swap;
+}
+@font-face{
+  font-family:"DejaVu Sans Mono";
+  src:url("fonts/DejaVuSansMono-Bold.woff2") format("woff2");
+  font-weight:700;font-style:normal;font-display:swap;
+}
+
+:root{
+  --bg:#E9E4DB; --paper:#FFFEFA; --ink:#1A1A1A; --muted:#8A857C;
+  --line:#C9C3B8; --fox:#E85D26; --save:#1B7A45;
+  --shadow:rgba(0,0,0,.07);
+  --chain-aldi:#00005F; --chain-lidl:#0050AA; --chain-netto:#C9A100; --chain-rewe:#CC0000;
+  --mono:"DejaVu Sans Mono","JetBrains Mono","IBM Plex Mono",ui-monospace,monospace;
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  background:var(--bg);color:var(--ink);font-family:var(--mono);
+  line-height:1.5;display:flex;flex-direction:column;align-items:center;
+  padding:26px 12px 60px;
+}
+
+/* --- Bon-Papier (Karte mit Abrisskante oben+unten) ------------------- */
+.bon{
+  width:100%;max-width:520px;background:var(--paper);
+  padding:30px 22px 24px;margin:0 0 34px;
+  box-shadow:8px 8px 0 var(--shadow);
+  clip-path:polygon(0 0,2.5% 10px,5% 0,7.5% 10px,10% 0,12.5% 10px,15% 0,17.5% 10px,20% 0,22.5% 10px,25% 0,27.5% 10px,30% 0,32.5% 10px,35% 0,37.5% 10px,40% 0,42.5% 10px,45% 0,47.5% 10px,50% 0,52.5% 10px,55% 0,57.5% 10px,60% 0,62.5% 10px,65% 0,67.5% 10px,70% 0,72.5% 10px,75% 0,77.5% 10px,80% 0,82.5% 10px,85% 0,87.5% 10px,90% 0,92.5% 10px,95% 0,97.5% 10px,100% 0,100% 100%,97.5% calc(100% - 10px),95% 100%,92.5% calc(100% - 10px),90% 100%,87.5% calc(100% - 10px),85% 100%,82.5% calc(100% - 10px),80% 100%,77.5% calc(100% - 10px),75% 100%,72.5% calc(100% - 10px),70% 100%,67.5% calc(100% - 10px),65% 100%,62.5% calc(100% - 10px),60% 100%,57.5% calc(100% - 10px),55% 100%,52.5% calc(100% - 10px),50% 100%,47.5% calc(100% - 10px),45% 100%,42.5% calc(100% - 10px),40% 100%,37.5% calc(100% - 10px),35% 100%,32.5% calc(100% - 10px),30% 100%,27.5% calc(100% - 10px),25% 100%,22.5% calc(100% - 10px),20% 100%,17.5% calc(100% - 10px),15% 100%,12.5% calc(100% - 10px),10% 100%,7.5% calc(100% - 10px),5% 100%,2.5% calc(100% - 10px),0 100%);
+}
+
+/* --- Typografie ------------------------------------------------------ */
+h1{font-size:26px;letter-spacing:1px;text-align:center;text-transform:uppercase}
+.sub{color:var(--muted);text-align:center;font-size:13px;letter-spacing:3px;margin:4px 0 6px}
+.claim{text-align:center;font-size:14px;margin-bottom:6px}
+h2{font-size:15px;letter-spacing:1px;margin:6px 0 10px;text-transform:uppercase}
+h2.orange{color:var(--fox)}
+.mut{color:var(--muted)}
+.small{font-size:12.5px}
+.center{text-align:center}
+
+/* --- Bon-Sprache ----------------------------------------------------- */
+hr.dash{border:none;border-top:3px dashed var(--line);margin:16px 0}
+.dotline{border:none;border-top:2px dotted var(--line);margin:0}
+.double{border-top:4px double var(--ink);margin-top:10px;padding-top:8px}
+.topnav{text-align:center;font-size:11.5px;color:var(--muted);margin-bottom:14px}
+.topnav a{color:var(--muted)}
+.fox{display:block;margin:2px auto 10px}
+.served{text-align:center;font-weight:bold;font-size:12.5px;margin-top:18px;letter-spacing:.5px}
+.barcode{display:block;margin:10px auto 2px}
+.foot{margin-top:4px;text-align:center;color:var(--muted);font-size:12px}
+
+/* --- Link-Buttons (Hover = Invertierung, CI §Animation) -------------- */
+.links a{
+  display:flex;justify-content:space-between;align-items:center;gap:10px;
+  border:3px solid var(--ink);padding:14px 16px;margin:12px 0;
+  text-decoration:none;color:var(--ink);font-weight:bold;font-size:15px;
+  letter-spacing:.5px;background:var(--paper);
+}
+.links a:hover{background:var(--ink);color:var(--paper)}
+.links a .arr{font-weight:normal}
+.links a.primary{border-color:var(--fox);color:var(--fox)}
+.links a.primary:hover{background:var(--fox);color:var(--paper)}
+
+/* --- Der Tagesbon ---------------------------------------------------- */
+.bonhead{ text-align:center; }
+.bonhead .title{font-size:17px;font-weight:bold;letter-spacing:1px;color:var(--fox);text-transform:uppercase}
+.bonhead .meta{font-size:12.5px;color:var(--muted);margin-top:4px;letter-spacing:.5px}
+.demo-banner{
+  border:3px solid var(--fox);color:var(--fox);font-weight:bold;text-align:center;
+  padding:10px;margin:12px 0;letter-spacing:1px;font-size:14px;
+}
+.stale{font-size:12.5px;color:var(--muted);text-align:center;margin-top:6px}
+
+.row{padding:10px 0 8px;cursor:pointer}
+.row + .row{border-top:2px dotted var(--line)}
+.row .l1{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.row .pname{font-weight:bold;font-size:15px;text-transform:uppercase;letter-spacing:.3px}
+.row .pname .promo{color:var(--fox)}
+.row .price{font-weight:bold;font-size:16px;white-space:nowrap}
+.row .l2{display:flex;justify-content:space-between;gap:8px;font-size:12.5px;margin-top:2px}
+.row .spec{color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.row .chain{font-weight:bold;text-transform:uppercase;white-space:nowrap}
+.row .l3{display:flex;justify-content:space-between;gap:8px;font-size:12.5px;margin-top:1px}
+.row .save{color:var(--save);font-weight:bold}
+.row .chev{color:var(--muted);font-weight:normal}
+.chain.aldi{color:var(--chain-aldi)} .chain.lidl{color:var(--chain-lidl)}
+.chain.netto{color:var(--chain-netto)} .chain.rewe{color:var(--chain-rewe)}
+
+.detail{padding:8px 0 4px;font-size:12.5px}
+.detail .offer{display:flex;justify-content:space-between;padding:2px 0}
+.detail .offer .op{font-weight:bold}
+.detail .raw{color:var(--muted);margin-top:6px}
+.charttitle{color:var(--muted);font-size:11.5px;letter-spacing:.5px;margin:8px 0 2px;text-transform:uppercase}
+canvas.spark{width:100%;height:64px;display:block}
+
+.fakt{margin-top:14px;font-size:13px}
+.fakt b{color:var(--fox);letter-spacing:.5px}
+.sum{display:flex;justify-content:space-between;font-size:13px;padding:2px 0}
+.disclaimer{font-size:11.5px;color:var(--muted);margin-top:12px}
+
+.method{font-size:13px;margin:10px 0}
+.method div{padding:3px 0}
+.legal{font-size:12.5px}
+.legal p{margin:8px 0}
+.legal a{color:var(--ink)}
+.imp-block{border-top:4px double var(--ink);margin-top:14px;padding-top:12px}
+
+/* --- So funktioniert's ----------------------------------------------- */
+.prose{font-size:13.5px}
+.prose p{margin:9px 0}
+.prose h2{margin-top:18px}
+.prose ul{margin:8px 0 8px 18px}
+.prose li{margin:4px 0}
+.backlink{display:inline-block;margin-top:14px;font-size:13px;color:var(--ink)}
+
+@media (max-width:400px){
+  .bon{padding:26px 14px 20px}
+  .row .pname{font-size:14px}
+  .row .price{font-size:15px}
+}

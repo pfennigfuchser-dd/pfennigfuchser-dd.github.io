@@ -1,0 +1,338 @@
+{
+  "brand": "Pfennigfuchser Dresden",
+  "claim": "Jeden Tag. Jeder Pfennig.",
+  "date": "2026-07-17",
+  "generated_at": "2026-07-17T15:50:19+00:00",
+  "basket_savings": "8,27 €",
+  "n_products": 8,
+  "fun_fact": "Lidl holt heute 5 von 8 Tagessiegen.",
+  "is_demo": false,
+  "sources": [
+    "marktguru"
+  ],
+  "items": [
+    {
+      "id": "hack",
+      "name": "Hackfleisch gemischt",
+      "spec": "Rind/Schwein",
+      "emoji": "🥩",
+      "category": "Fleisch",
+      "cheapest": {
+        "chain": "Lidl",
+        "color": "#0050aa",
+        "price": "5,83 €/kg",
+        "is_promo": true,
+        "brand": "Metzgerfrisch",
+        "raw_label": "Metzgerfrisch Hackfleisch Gemischt XXL · 70 % Schwein, 30 % Rind. Je 1,2 kg",
+        "vs": "Rewe"
+      },
+      "savings": "6,07 €",
+      "is_30d_low": false,
+      "spark": [
+        686,
+        686,
+        583,
+        583,
+        583,
+        583,
+        583
+      ],
+      "offers": [
+        {
+          "chain": "Lidl",
+          "color": "#0050aa",
+          "price": "5,83 €/kg",
+          "is_promo": true,
+          "brand": "Metzgerfrisch"
+        },
+        {
+          "chain": "Netto",
+          "color": "#C9A100",
+          "price": "9,97 €/kg",
+          "is_promo": true,
+          "brand": "Gut Ponholz"
+        },
+        {
+          "chain": "Rewe",
+          "color": "#cc0000",
+          "price": "11,90 €/kg",
+          "is_promo": true,
+          "brand": null
+        }
+      ]
+    },
+    {
+      "id": "aepfel",
+      "name": "Äpfel",
+      "spec": "Tafeläpfel",
+      "emoji": "🍎",
+      "category": "Obst",
+      "cheapest": {
+        "chain": "Netto",
+        "color": "#C9A100",
+        "price": "1,25 €/kg",
+        "is_promo": true,
+        "brand": "Ein Herz für Erzeuger",
+        "raw_label": "Ein Herz für Erzeuger Äpfel · 2 kg Beutel Deutschland, Kl. II",
+        "vs": "Lidl"
+      },
+      "savings": "1,24 €",
+      "is_30d_low": false,
+      "spark": [
+        90,
+        90,
+        125,
+        125,
+        125,
+        125,
+        125
+      ],
+      "offers": [
+        {
+          "chain": "Netto",
+          "color": "#C9A100",
+          "price": "1,25 €/kg",
+          "is_promo": true,
+          "brand": "Ein Herz für Erzeuger"
+        },
+        {
+          "chain": "Lidl",
+          "color": "#0050aa",
+          "price": "2,49 €/kg",
+          "is_promo": true,
+          "brand": null
+        }
+      ]
+    },
+    {
+      "id": "kaffee",
+      "name": "Kaffee gemahlen",
+      "spec": "Filterkaffee",
+      "emoji": "☕",
+      "category": "Getränke",
+      "cheapest": {
+        "chain": "Netto",
+        "color": "#C9A100",
+        "price": "0,96 €/100 g",
+        "is_promo": true,
+        "brand": "Cafèt",
+        "raw_label": "Cafèt Kaffee Extra · gemahlen 500 g",
+        "vs": "Lidl"
+      },
+      "savings": "0,70 €",
+      "is_30d_low": false,
+      "spark": [
+        449,
+        449,
+        479,
+        479,
+        479,
+        479,
+        479
+      ],
+      "offers": [
+        {
+          "chain": "Netto",
+          "color": "#C9A100",
+          "price": "0,96 €/100 g",
+          "is_promo": true,
+          "brand": "Cafèt"
+        },
+        {
+          "chain": "Lidl",
+          "color": "#0050aa",
+          "price": "1,10 €/100 g",
+          "is_promo": true,
+          "brand": "Bellarom"
+        }
+      ]
+    },
+    {
+      "id": "kartoffeln",
+      "name": "Kartoffeln",
+      "spec": "festkochend, 2,5 kg",
+      "emoji": "🥔",
+      "category": "Gemüse",
+      "cheapest": {
+        "chain": "Rewe",
+        "color": "#cc0000",
+        "price": "1,00 €/kg",
+        "is_promo": true,
+        "brand": null,
+        "raw_label": "Speisekartoffeln · Sorte und Kocheigenschaft: siehe Etikett, Qualität I, je 2,5",
+        "vs": "Lidl"
+      },
+      "savings": "0,26 €",
+      "is_30d_low": false,
+      "spark": [
+        96,
+        96,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "offers": [
+        {
+          "chain": "Rewe",
+          "color": "#cc0000",
+          "price": "1,00 €/kg",
+          "is_promo": true,
+          "brand": null
+        },
+        {
+          "chain": "Netto",
+          "color": "#C9A100",
+          "price": "1,11 €/kg",
+          "is_promo": true,
+          "brand": "Heimat"
+        },
+        {
+          "chain": "Lidl",
+          "color": "#0050aa",
+          "price": "1,26 €/kg",
+          "is_promo": true,
+          "brand": null
+        }
+      ]
+    },
+    {
+      "id": "bananen",
+      "name": "Bananen",
+      "spec": "lose",
+      "emoji": "🍌",
+      "category": "Obst",
+      "cheapest": {
+        "chain": "Lidl",
+        "color": "#0050aa",
+        "price": "0,99 €/kg",
+        "is_promo": true,
+        "brand": null,
+        "raw_label": "Bananen · lose Ursprung: Kolumbien/Elfenbeinküste/Ecuador/ Guatemala k",
+        "vs": null
+      },
+      "savings": "0,00 €",
+      "is_30d_low": false,
+      "spark": [
+        99,
+        99,
+        99,
+        99,
+        99,
+        99
+      ],
+      "offers": [
+        {
+          "chain": "Lidl",
+          "color": "#0050aa",
+          "price": "0,99 €/kg",
+          "is_promo": true,
+          "brand": null
+        }
+      ]
+    },
+    {
+      "id": "mehl",
+      "name": "Weizenmehl",
+      "spec": "Type 405",
+      "emoji": "🌾",
+      "category": "Basis",
+      "cheapest": {
+        "chain": "Lidl",
+        "color": "#0050aa",
+        "price": "0,59 €/kg",
+        "is_promo": true,
+        "brand": "Belbake",
+        "raw_label": "Belbake Weizenmehl · Type 405 Je 1 kg",
+        "vs": null
+      },
+      "savings": "0,00 €",
+      "is_30d_low": false,
+      "spark": [
+        59,
+        59,
+        59,
+        59,
+        59
+      ],
+      "offers": [
+        {
+          "chain": "Lidl",
+          "color": "#0050aa",
+          "price": "0,59 €/kg",
+          "is_promo": true,
+          "brand": "Belbake"
+        }
+      ]
+    },
+    {
+      "id": "reis",
+      "name": "Reis",
+      "spec": "Parboiled Langkorn",
+      "emoji": "🍚",
+      "category": "Basis",
+      "cheapest": {
+        "chain": "Lidl",
+        "color": "#0050aa",
+        "price": "1,59 €/kg",
+        "is_promo": true,
+        "brand": "Golden Sun",
+        "raw_label": "Golden Sun Langkorn Spitzenreis · im Kochbeutel Je 8x 125 g",
+        "vs": null
+      },
+      "savings": "0,00 €",
+      "is_30d_low": false,
+      "spark": [
+        159,
+        159,
+        159,
+        159,
+        159
+      ],
+      "offers": [
+        {
+          "chain": "Lidl",
+          "color": "#0050aa",
+          "price": "1,59 €/kg",
+          "is_promo": true,
+          "brand": "Golden Sun"
+        }
+      ]
+    },
+    {
+      "id": "vollmilch",
+      "name": "Vollmilch frisch",
+      "spec": "3,5 % Fett",
+      "emoji": "🥛",
+      "category": "Molkerei",
+      "cheapest": {
+        "chain": "Lidl",
+        "color": "#0050aa",
+        "price": "0,95 €/l",
+        "is_promo": true,
+        "brand": "Milbona",
+        "raw_label": "Milbona Frische Vollmilch · 3,5 % Fett. Gekühlt. Je 1",
+        "vs": null
+      },
+      "savings": "0,00 €",
+      "is_30d_low": false,
+      "spark": [
+        95,
+        95,
+        95,
+        95,
+        95
+      ],
+      "offers": [
+        {
+          "chain": "Lidl",
+          "color": "#0050aa",
+          "price": "0,95 €/l",
+          "is_promo": true,
+          "brand": "Milbona"
+        }
+      ]
+    }
+  ]
+}

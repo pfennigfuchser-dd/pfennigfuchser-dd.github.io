@@ -3,88 +3,74 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Pfennigfuchser Dresden · Links & Impressum</title>
-<meta name="description" content="Wo ist es heute am günstigsten? Täglicher Lebensmittel-Preisvergleich für Dresden: Aldi, Lidl, Netto & Rewe.">
+<title>Pfennigfuchser Dresden · Wo ist es heute am günstigsten?</title>
+<meta name="description" content="Der tägliche Lebensmittel-Preisvergleich für Dresden: Aldi, Lidl, Netto & Rewe. Eigenmarke gegen Eigenmarke, immer per Grundpreis — jeden Morgen als Tagesbon.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Pfennigfuchser Dresden — Wo ist es heute am günstigsten?">
+<meta property="og:description" content="Täglicher Lebensmittel-Preisvergleich für Dresden. Eigenmarke gegen Eigenmarke, immer per Grundpreis. Jeden Tag. Jeder Pfennig.">
+<meta property="og:image" content="https://pfennigfuchser-dd.github.io/og-logo.png">
+<meta property="og:url" content="https://pfennigfuchser-dd.github.io/">
+<meta property="og:type" content="website">
 <!-- ============================================================
-     PFENNIGFUCHSER LINKSEITE (eigener "Linktree" im Bon-Design)
-     · WICHTIG: Diese Datei nur im Code-Editor oder direkt auf
-       GitHub bearbeiten — NICHT mit TextEdit/Word öffnen und
-       speichern (zerstört das Design, ist am 10.07. passiert).
-     · Offener Platzhalter: [LADUNGSFÄHIGE ANSCHRIFT]
-       (kommt vom Impressum-Service, dann hier eintragen)
-     · Impressum-Anker: <deine-url>/#impressum
+     PFENNIGFUCHSER WEBSITE · Quelle: 08_Website/ im Projektordner.
+     · NUR im Code-Editor bearbeiten (nie TextEdit/Word).
+     · today.json wird täglich von der Tagesredaktion aktualisiert
+       (Runbook: 06_Betrieb/TAGESREDAKTION.md).
+     · Der Anker /#impressum ist in Kanal-Bios verlinkt — nie entfernen.
      ============================================================ -->
-<style>
-  :root{
-    --bg:#E9E4DB; --paper:#FFFEFA; --ink:#1A1A1A; --muted:#8A857C;
-    --line:#C9C3B8; --fox:#E85D26; --save:#1B7A45;
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{background:var(--bg);font-family:"DejaVu Sans Mono","JetBrains Mono","IBM Plex Mono",ui-monospace,monospace;
-       color:var(--ink);display:flex;justify-content:center;padding:28px 12px 60px;line-height:1.5}
-  .bon{width:100%;max-width:480px;background:var(--paper);padding:34px 26px 26px;
-       box-shadow:6px 6px 0 rgba(0,0,0,.08);
-       clip-path:polygon(0 0,2.5% 10px,5% 0,7.5% 10px,10% 0,12.5% 10px,15% 0,17.5% 10px,20% 0,22.5% 10px,25% 0,27.5% 10px,30% 0,32.5% 10px,35% 0,37.5% 10px,40% 0,42.5% 10px,45% 0,47.5% 10px,50% 0,52.5% 10px,55% 0,57.5% 10px,60% 0,62.5% 10px,65% 0,67.5% 10px,70% 0,72.5% 10px,75% 0,77.5% 10px,80% 0,82.5% 10px,85% 0,87.5% 10px,90% 0,92.5% 10px,95% 0,97.5% 10px,100% 0,100% 100%,97.5% calc(100% - 10px),95% 100%,92.5% calc(100% - 10px),90% 100%,87.5% calc(100% - 10px),85% 100%,82.5% calc(100% - 10px),80% 100%,77.5% calc(100% - 10px),75% 100%,72.5% calc(100% - 10px),70% 100%,67.5% calc(100% - 10px),65% 100%,62.5% calc(100% - 10px),60% 100%,57.5% calc(100% - 10px),55% 100%,52.5% calc(100% - 10px),50% 100%,47.5% calc(100% - 10px),45% 100%,42.5% calc(100% - 10px),40% 100%,37.5% calc(100% - 10px),35% 100%,32.5% calc(100% - 10px),30% 100%,27.5% calc(100% - 10px),25% 100%,22.5% calc(100% - 10px),20% 100%,17.5% calc(100% - 10px),15% 100%,12.5% calc(100% - 10px),10% 100%,7.5% calc(100% - 10px),5% 100%,2.5% calc(100% - 10px),0 100%);}
-  .topnav{text-align:center;font-size:11.5px;color:var(--muted);margin-bottom:16px}
-  .topnav a{color:var(--muted)}
-  .fox{display:block;margin:4px auto 10px}
-  h1{font-size:26px;letter-spacing:1px;text-align:center}
-  .sub{color:var(--muted);text-align:center;font-size:13px;letter-spacing:2px;margin:4px 0 6px}
-  .claim{text-align:center;font-size:14px;margin-bottom:18px}
-  hr.dash{border:none;border-top:3px dashed var(--line);margin:18px 0}
-  .links a{display:flex;justify-content:space-between;align-items:center;gap:10px;
-       border:3px solid var(--ink);padding:14px 16px;margin:12px 0;text-decoration:none;
-       color:var(--ink);font-weight:bold;font-size:15px;letter-spacing:.5px;background:var(--paper)}
-  .links a:hover{background:var(--ink);color:var(--paper)}
-  .links a span.arr{font-weight:normal}
-  .links a.primary{border-color:var(--fox);color:var(--fox)}
-  .links a.primary:hover{background:var(--fox);color:var(--paper)}
-  .method{font-size:13px;margin:10px 0}
-  .method div{padding:3px 0}
-  h2{font-size:15px;letter-spacing:1px;margin:6px 0 10px}
-  h2.orange{color:var(--fox)}
-  .legal{font-size:12.5px;color:var(--ink)}
-  .legal p{margin:8px 0}
-  .legal .mut{color:var(--muted)}
-  .legal a{color:var(--ink)}
-  .imp-block{border-top:4px double var(--ink);margin-top:14px;padding-top:12px}
-  .foot{margin-top:22px;text-align:center;color:var(--muted);font-size:12px}
-  .served{text-align:center;font-weight:bold;font-size:12.5px;margin-top:18px}
-  .barcode{display:block;margin:10px auto 2px}
-</style>
 </head>
 <body>
-<div class="bon">
-  <nav class="topnav"><a href="#impressum">Impressum</a> · <a href="#datenschutz">Datenschutz</a></nav>
 
-  <svg class="fox" width="94" height="88" viewBox="25 40 150 165">
+<!-- Bon 1 · Kopf + Kanäle -->
+<section class="bon">
+  <nav class="topnav"><a href="#impressum">Impressum</a> · <a href="#datenschutz">Datenschutz</a> · <a href="so-funktionierts.html">So funktioniert's</a></nav>
+  <svg class="fox" width="94" height="88" viewBox="25 40 150 165" aria-label="Pfennigfuchser Logo">
     <polygon points="40.69,115.18 56.66,55.87 86.31,106.06" fill="#E85D26"/>
     <polygon points="159.31,115.18 143.34,55.87 113.69,106.06" fill="#E85D26"/>
     <polygon points="37.27,110.62 162.73,110.62 100,195.02" fill="#E85D26"/>
     <circle cx="77.19" cy="126.59" r="5.23" fill="#FFFEFA"/><circle cx="122.81" cy="126.59" r="5.23" fill="#FFFEFA"/>
     <circle cx="100" cy="189.32" r="6.18" fill="#1A1A1A"/>
   </svg>
-  <h1>PFENNIGFUCHSER</h1>
+  <h1>Pfennigfuchser</h1>
   <div class="sub">DRESDEN</div>
   <div class="claim">Wo ist es heute am günstigsten?<br>Aldi · Lidl · Netto · Rewe — jeden Morgen.</div>
-
   <div class="links">
     <a class="primary" href="https://whatsapp.com/channel/0029Vb8NHt37j6g4Fl8fg63E">WHATSAPP-KANAL FOLGEN <span class="arr">→</span></a>
     <a href="https://www.instagram.com/derpfennigfuchser">INSTAGRAM <span class="arr">→</span></a>
   </div>
+</section>
 
+<!-- Bon 2 · Der Tagesbon -->
+<section class="bon" id="tagesbon">
+  <div class="bonhead">
+    <div class="title">Der Tagesbon</div>
+    <div class="meta" id="bon-meta">DRESDEN</div>
+  </div>
   <hr class="dash">
-  <h2 class="orange">SO VERGLEICHEN WIR</h2>
+  <div id="bon-body"><p class="mut small center">Bon wird gedruckt …</p></div>
+  <div class="served">ES BEDIENTE SIE: DER PFENNIGFUCHSER</div>
+</section>
+
+<!-- Bon 3 · Methode -->
+<section class="bon">
+  <h2 class="orange">So vergleichen wir</h2>
   <div class="method">
     <div>✓ Eigenmarke gegen Eigenmarke</div>
     <div>✓ immer per Grundpreis (€/kg, €/l)</div>
     <div>✓ Quelle + Stand auf jedem Bon</div>
     <div>✓ keine Werbung im Ranking — niemals</div>
   </div>
+  <p class="small mut">Fehlt ein Produkt? Dann gab es heute keinen belegbaren Preis —
+  lieber Lücke als Lüge. Preis falsch? <a href="mailto:mailpfennigfuchser@gmail.com" style="color:var(--ink)">Schreib uns</a>,
+  wir prüfen und korrigieren öffentlich.</p>
+  <div class="links"><a href="so-funktionierts.html">SO FUNKTIONIERT'S — DIE METHODE <span class="arr">→</span></a></div>
+</section>
 
-  <hr class="dash">
+<!-- Bon 4 · Rechtliches -->
+<section class="bon">
   <section class="legal" id="impressum">
-    <h2>IMPRESSUM &amp; RECHTLICHES</h2>
+    <h2>Impressum &amp; Rechtliches</h2>
     <p class="mut">Alle Preisangaben ohne Gewähr. Wir vergleichen Angebots- und Onlinepreise
     der genannten Ketten (Preiseinstiegs-Eigenmarken, Grundpreis) mit Quellen- und Standangabe.
     Aktionspreise gelten nur im ausgewiesenen Zeitraum; Preise können je Filiale abweichen.
@@ -101,19 +87,16 @@ Albert-Einstein-Straße 47<br>
       <p>Verantwortlich für den Inhalt:<br>Pierre Pinisch</p>
     </div>
   </section>
-
   <hr class="dash">
   <section class="legal" id="datenschutz">
-    <h2>DATENSCHUTZ</h2>
+    <h2>Datenschutz</h2>
     <p class="mut">Diese Seite ist statisch: kein Tracking, keine Cookies, keine Analyse-Tools,
     keine Einbindung Dritter. Beim Aufruf verarbeitet der Hosting-Anbieter (GitHub Pages,
     GitHub Inc.) technisch notwendige Server-Logdaten (z. B. IP-Adresse) nach Art. 6 Abs. 1
     lit. f DSGVO; Details in der Datenschutzerklärung von GitHub. Bei Kontakt per E-Mail
     verarbeiten wir deine Angaben nur zur Beantwortung der Anfrage.</p>
   </section>
-
-  <div class="served">ES BEDIENTE SIE: DER PFENNIGFUCHSER</div>
-  <svg class="barcode" width="220" height="30">
+  <svg class="barcode" width="220" height="30" aria-hidden="true">
     <g fill="#1A1A1A">
       <rect x="0" width="3" height="30"/><rect x="6" width="2" height="30"/><rect x="12" width="4" height="30"/>
       <rect x="19" width="2" height="30"/><rect x="24" width="3" height="30"/><rect x="31" width="4" height="30"/>
@@ -130,6 +113,8 @@ Albert-Einstein-Straße 47<br>
     </g>
   </svg>
   <div class="foot">@derpfennigfuchser</div>
-</div>
+</section>
+
+<script src="app.js"></script>
 </body>
 </html>
