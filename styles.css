@@ -20,6 +20,7 @@
   --line:#C9C3B8; --fox:#E85D26; --save:#1B7A45;
   --shadow:rgba(0,0,0,.07);
   --chain-aldi:#00005F; --chain-lidl:#0050AA; --chain-netto:#C9A100; --chain-rewe:#CC0000;
+  --chain-penny:#CD1414; --chain-kaufland:#E10915;
   --mono:"DejaVu Sans Mono","JetBrains Mono","IBM Plex Mono",ui-monospace,monospace;
 }
 
@@ -96,6 +97,7 @@ hr.dash{border:none;border-top:3px dashed var(--line);margin:16px 0}
 .row .chev{color:var(--muted);font-weight:normal}
 .chain.aldi{color:var(--chain-aldi)} .chain.lidl{color:var(--chain-lidl)}
 .chain.netto{color:var(--chain-netto)} .chain.rewe{color:var(--chain-rewe)}
+.chain.penny{color:var(--chain-penny)} .chain.kaufland{color:var(--chain-kaufland)}
 
 .detail{padding:8px 0 4px;font-size:12.5px}
 .detail .offer{display:flex;justify-content:space-between;padding:2px 0}

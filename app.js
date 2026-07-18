@@ -3,7 +3,8 @@
 (function(){
   "use strict";
 
-  var CHAIN_CLASS = { "Aldi":"aldi", "Lidl":"lidl", "Netto":"netto", "Rewe":"rewe" };
+  var CHAIN_CLASS = { "Aldi":"aldi", "Lidl":"lidl", "Netto":"netto", "Rewe":"rewe",
+                      "Penny":"penny", "Kaufland":"kaufland" };
 
   function fmtDate(iso){ var p=(iso||"").split("-"); return p.length===3 ? p[2]+"."+p[1]+"."+p[0] : iso; }
   function esc(s){ return String(s==null?"":s).replace(/[&<>"]/g, function(c){
