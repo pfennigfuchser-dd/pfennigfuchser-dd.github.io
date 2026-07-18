@@ -1,11 +1,11 @@
 {
   "brand": "Pfennigfuchser Dresden",
   "claim": "Jeden Tag. Jeder Pfennig.",
-  "date": "2026-07-17",
-  "generated_at": "2026-07-17T16:07:01+00:00",
-  "basket_savings": "8,27 €",
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T19:05:02+00:00",
+  "basket_savings": "7,77 €",
   "n_products": 8,
-  "fun_fact": "Lidl holt heute 5 von 8 Tagessiegen.",
+  "fun_fact": "8 der 8 Tagessieger sind heute Aktionspreise.",
   "is_demo": false,
   "sources": [
     "marktguru"
@@ -31,6 +31,7 @@
       "spark": [
         686,
         686,
+        583,
         583,
         583,
         583,
@@ -76,7 +77,7 @@
         "raw_label": "Ein Herz für Erzeuger Äpfel · 2 kg Beutel Deutschland, Kl. II",
         "vs": "Lidl"
       },
-      "savings": "1,24 €",
+      "savings": "0,74 €",
       "is_30d_low": false,
       "spark": [
         90,
@@ -85,7 +86,8 @@
         125,
         125,
         125,
-        125
+        99,
+        99
       ],
       "offers": [
         {
@@ -98,7 +100,7 @@
         {
           "chain": "Lidl",
           "color": "#0050aa",
-          "price": "2,49 €/kg",
+          "price": "1,99 €/kg",
           "is_promo": true,
           "brand": null
         }
@@ -128,7 +130,8 @@
         479,
         479,
         479,
-        479
+        372,
+        372
       ],
       "offers": [
         {
@@ -171,7 +174,8 @@
         100,
         100,
         100,
-        100
+        87,
+        87
       ],
       "offers": [
         {
@@ -220,6 +224,7 @@
         99,
         99,
         99,
+        99,
         99
       ],
       "offers": [
@@ -250,6 +255,7 @@
       "savings": "0,00 €",
       "is_30d_low": false,
       "spark": [
+        59,
         59,
         59,
         59,
@@ -288,6 +294,7 @@
         159,
         159,
         159,
+        159,
         159
       ],
       "offers": [
@@ -318,6 +325,7 @@
       "savings": "0,00 €",
       "is_30d_low": false,
       "spark": [
+        95,
         95,
         95,
         95,
