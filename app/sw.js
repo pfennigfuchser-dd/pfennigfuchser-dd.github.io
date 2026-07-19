@@ -1,7 +1,7 @@
 /* Pfennigfuchser App — Service Worker.
    Shell: cache-first (offline-fähig). today.json: network-first (immer frische Preise),
    offline aus dem Cache. Navigation: immer index.html (auch mit ?query). */
-const CACHE = "pf-app-v3";
+const CACHE = "pf-app-v4";
 const SHELL = [
   "./", "./index.html", "./app.js", "./styles.css", "./manifest.webmanifest",
   "./favicon.svg",

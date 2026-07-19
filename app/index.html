@@ -42,25 +42,47 @@
     <div id="heute-body" class="bon"><p class="mut center small">Bon wird geladen …</p></div>
   </section>
 
+  <!-- Ansicht RADAR -->
+  <section id="view-radar" class="view" role="tabpanel" aria-label="Angebots-Radar" hidden>
+    <div id="radar-body"></div>
+  </section>
+
   <!-- Ansicht MEINE LISTE -->
   <section id="view-liste" class="view" role="tabpanel" aria-label="Meine Liste" hidden>
     <div id="liste-body"></div>
   </section>
 </main>
 
+<!-- Produkt-Detail als Bottom-Sheet -->
+<div id="scrim" class="scrim" hidden></div>
+<section id="sheet" class="sheet" role="dialog" aria-modal="true" aria-labelledby="sheet-name" hidden>
+  <div id="sheet-body"></div>
+</section>
+<div id="sheet-live" class="sr-only" role="status" aria-live="polite"></div>
+
+<!-- Toast (Teilen-Fallback) -->
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<!-- Info-Bon (Onboarding / So funktioniert's) -->
+<div id="info" class="ovl" role="dialog" aria-modal="true" aria-labelledby="info-title" hidden>
+  <div id="info-body" class="bon info-card"></div>
+</div>
+
 <!-- USP-Footer: immer sichtbar -->
 <div class="usp">
   <span>🦊 Von keiner Kette bezahlt.</span>
   <span>Eigenmarke gegen Eigenmarke, per Grundpreis.</span>
   <span>Lieber Lücke als Lüge.</span>
+  <button id="how" class="usp-btn" type="button">So funktioniert's</button>
   <span id="usp-stand" class="mut"></span>
   <a href="https://pfennigfuchser-dd.github.io/#impressum">Impressum</a>
 </div>
 
 <!-- Tab-Leiste -->
 <nav class="tabbar" role="tablist" aria-label="Ansicht">
-  <button class="tab active" data-view="heute" role="tab" aria-selected="true" aria-controls="view-heute">🧾 Heute</button>
-  <button class="tab" data-view="liste" role="tab" aria-selected="false" aria-controls="view-liste">🛒 Meine Liste</button>
+  <button class="tab active" data-view="heute" role="tab" aria-selected="true" aria-controls="view-heute" tabindex="0">🧾 Heute</button>
+  <button class="tab" data-view="radar" role="tab" aria-selected="false" aria-controls="view-radar" tabindex="-1">📡 Radar</button>
+  <button class="tab" data-view="liste" role="tab" aria-selected="false" aria-controls="view-liste" tabindex="-1">🛒 Liste</button>
 </nav>
 
 <script src="app.js"></script>
