@@ -2,7 +2,7 @@
   "brand": "Pfennigfuchser Dresden",
   "claim": "Jeden Tag. Jeder Pfennig.",
   "date": "2026-07-19",
-  "generated_at": "2026-07-19T14:38:19+00:00",
+  "generated_at": "2026-07-19T14:47:31+00:00",
   "basket_savings": "9,88 €",
   "n_products": 12,
   "fun_fact": "Kartoffeln sind heute so günstig wie noch nie seit Messbeginn vor 9 Tagen.",
@@ -568,6 +568,155 @@
           "brand": "Diamant"
         }
       ]
+    }
+  ],
+  "catalog": [
+    {
+      "id": "vollmilch",
+      "name": "Vollmilch frisch",
+      "emoji": "🥛",
+      "category": "Molkerei",
+      "diet": "vegetarisch"
+    },
+    {
+      "id": "hmilch",
+      "name": "H-Milch fettarm",
+      "emoji": "🥛",
+      "category": "Molkerei",
+      "diet": "vegetarisch"
+    },
+    {
+      "id": "butter",
+      "name": "Butter",
+      "emoji": "🧈",
+      "category": "Molkerei",
+      "diet": "vegetarisch"
+    },
+    {
+      "id": "quark",
+      "name": "Speisequark",
+      "emoji": "🥣",
+      "category": "Molkerei",
+      "diet": "vegetarisch"
+    },
+    {
+      "id": "joghurt",
+      "name": "Naturjoghurt",
+      "emoji": "🥣",
+      "category": "Molkerei",
+      "diet": "vegetarisch"
+    },
+    {
+      "id": "eier",
+      "name": "Eier",
+      "emoji": "🥚",
+      "category": "Basis",
+      "diet": "vegetarisch"
+    },
+    {
+      "id": "mehl",
+      "name": "Weizenmehl",
+      "emoji": "🌾",
+      "category": "Basis",
+      "diet": "vegan"
+    },
+    {
+      "id": "zucker",
+      "name": "Zucker",
+      "emoji": "🧂",
+      "category": "Basis",
+      "diet": "vegan"
+    },
+    {
+      "id": "sonnenblumenoel",
+      "name": "Sonnenblumenöl",
+      "emoji": "🌻",
+      "category": "Basis",
+      "diet": "vegan"
+    },
+    {
+      "id": "nudeln",
+      "name": "Spaghetti",
+      "emoji": "🍝",
+      "category": "Basis",
+      "diet": "vegan"
+    },
+    {
+      "id": "reis",
+      "name": "Reis",
+      "emoji": "🍚",
+      "category": "Basis",
+      "diet": "vegan"
+    },
+    {
+      "id": "toast",
+      "name": "Toastbrot",
+      "emoji": "🍞",
+      "category": "Basis",
+      "diet": "vegetarisch"
+    },
+    {
+      "id": "kaffee",
+      "name": "Kaffee gemahlen",
+      "emoji": "☕",
+      "category": "Getränke",
+      "diet": "vegan"
+    },
+    {
+      "id": "wasser",
+      "name": "Mineralwasser",
+      "emoji": "💧",
+      "category": "Getränke",
+      "diet": "vegan"
+    },
+    {
+      "id": "bananen",
+      "name": "Bananen",
+      "emoji": "🍌",
+      "category": "Obst",
+      "diet": "vegan"
+    },
+    {
+      "id": "aepfel",
+      "name": "Äpfel",
+      "emoji": "🍎",
+      "category": "Obst",
+      "diet": "vegan"
+    },
+    {
+      "id": "kartoffeln",
+      "name": "Kartoffeln",
+      "emoji": "🥔",
+      "category": "Gemüse",
+      "diet": "vegan"
+    },
+    {
+      "id": "zwiebeln",
+      "name": "Zwiebeln",
+      "emoji": "🧅",
+      "category": "Gemüse",
+      "diet": "vegan"
+    },
+    {
+      "id": "haehnchen",
+      "name": "Hähnchenbrustfilet",
+      "emoji": "🍗",
+      "category": "Fleisch",
+      "diet": "fleisch"
+    },
+    {
+      "id": "hack",
+      "name": "Hackfleisch gemischt",
+      "emoji": "🥩",
+      "category": "Fleisch",
+      "diet": "fleisch"
+    },
+    {
+      "id": "haferdrink",
+      "name": "Haferdrink",
+      "emoji": "🌾",
+      "category": "Molkerei-Alternativen",
+      "diet": "vegan"
     }
   ]
 }
