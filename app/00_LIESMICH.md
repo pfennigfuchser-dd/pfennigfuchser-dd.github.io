@@ -66,8 +66,16 @@ Cache-Buster) repariert, leere/entkernte `today.json` → ehrliche Leeransicht s
 keine erfundene Quelle/„21", deutsche Zahlen (Tausenderpunkt), Tastatur-/Screenreader-Bedienung,
 WCAG-Kontrast (Netto-Gold & --muted abgedunkelt), Grün nur für Ersparnis, CSP same-origin.
 
-## Nächste Sprints
+## Sprints — Stand
 
-- **S3:** Angebots-Radar (alle Tagesangebote, sortier-/filterbar) — Produkt-Detail-Verlauf ist im Bon schon drin.
-- **S4:** Onboarding (Erststart erklärt USPs) + „So funktioniert's" + Teilen.
-- **Später (gated):** Push, Kassenbon-light, OCR, **Korb-Router** (echte Korbsumme je Laden — braucht Normalpreise aller Ketten).
+- **S1 ✅** PWA-Shell + Tagesbon · **S2 ✅** Meine Liste + Korb-Tipp
+- **S3 ✅** Angebots-Radar (Tab 📡) + Produkt-Detail-Sheet (SVG-Verlauf, Einheiten-Beweis)
+- **S4 ✅** Onboarding (Info-Bon) + „So funktioniert's" + Teilen (Web Share/Clipboard)
+
+**spark sauber ✅** (19.07.): `_cheapest_history_clean` in `rank.py` baut den Verlauf aus demselben
+gefilterten (Blocklist + aktive Ketten + keine Demo) und normalisierten Tagespreis wie der Bon. Dadurch
+gilt `spark[-1]` == angezeigter Grundpreis für alle Produkte → Kaffee/Butter haben jetzt einen Chart, und
+die Historie zeigt nur echte Eigenmarken-Tage (mit ehrlichen Datumslücken). Test sichert die Invariante
+(`tests/test_pipeline.py`). Produkte mit nur 1 Eigenmarken-Tag (Joghurt/Zucker) zeigen ehrlich „1 Messpunkt".
+
+**Später (gated):** Push, Kassenbon-light, OCR, **Korb-Router** (echte Korbsumme je Laden — braucht Normalpreise aller Ketten).

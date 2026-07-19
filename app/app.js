@@ -61,6 +61,13 @@
     $("datebar").textContent = "STAND: " + fmtDate(d.date) + (src ? " · Quelle: " + src : "");
     $("usp-stand").textContent = "Angaben ohne Gewähr · Stand " + fmtDate(d.date) + ".";
     $("demo-banner").hidden = !d.is_demo;
+    // Ehrliche Stand-Anzeige: ist der Bon aelter als heute (Lauf noch nicht da oder fehlgeschlagen)?
+    var now = new Date();
+    var clientToday = now.getFullYear() + "-" + String(now.getMonth() + 1).padStart(2, "0") + "-" + String(now.getDate()).padStart(2, "0");
+    var stale = !d.is_demo && d.date < clientToday;
+    var sn = $("stale-note");
+    sn.hidden = !stale;
+    if (stale) sn.textContent = "Der Bon von heute ist noch nicht da. Hier der letzte vom " + fmtDate(d.date) + ".";
     renderHeute(d);
     renderRadar(d);
     renderListe(d);
