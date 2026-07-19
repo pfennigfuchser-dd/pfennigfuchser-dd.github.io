@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Pfennigfuchser Dresden — App</title>
+<meta name="description" content="Der tägliche belegte Lebensmittel-Preisvergleich für Dresden. Von keiner Kette bezahlt.">
+<!-- Markenkern „keine Fremd-Requests" technisch erzwungen: nur Same-Origin, keine externen Assets. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; connect-src 'self'; base-uri 'self'; form-action 'none'; object-src 'none'">
+<meta name="theme-color" content="#E85D26">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Pfennigfuchser">
+<link rel="stylesheet" href="styles.css">
+<!-- Pfennigfuchser App (PWA über today.json). Quellcode: 10_App/. Kein Konto, kein Tracker. -->
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brandrow">
+    <svg class="fox" width="30" height="28" viewBox="25 40 150 165" aria-hidden="true">
+      <polygon points="40.69,115.18 56.66,55.87 86.31,106.06" fill="#E85D26"/>
+      <polygon points="159.31,115.18 143.34,55.87 113.69,106.06" fill="#E85D26"/>
+      <polygon points="37.27,110.62 162.73,110.62 100,195.02" fill="#E85D26"/>
+      <circle cx="77.19" cy="126.59" r="5.23" fill="#FFFEFA"/><circle cx="122.81" cy="126.59" r="5.23" fill="#FFFEFA"/>
+      <circle cx="100" cy="189.32" r="6.18" fill="#1A1A1A"/>
+    </svg>
+    <h1 class="brandname">PFENNIGFUCHSER <span class="city">DRESDEN</span></h1>
+    <button id="install" class="install" hidden>App installieren</button>
+  </div>
+  <div id="datebar" class="datebar">–</div>
+  <div id="ios-hint" class="ios-hint" hidden>Zum Installieren: <b>Teilen&nbsp;<span aria-hidden="true">⎋</span></b> antippen &rarr; <b>„Zum Home-Bildschirm"</b>.</div>
+</header>
+
+<main id="main">
+  <!-- Ansicht HEUTE -->
+  <section id="view-heute" class="view" role="tabpanel" aria-label="Heutiger Bon">
+    <div id="demo-banner" class="demo-banner" hidden>DEMO-DATEN — KEINE ECHTEN PREISE</div>
+    <div id="heute-body" class="bon"><p class="mut center small">Bon wird geladen …</p></div>
+  </section>
+
+  <!-- Ansicht MEINE LISTE -->
+  <section id="view-liste" class="view" role="tabpanel" aria-label="Meine Liste" hidden>
+    <div id="liste-body"></div>
+  </section>
+</main>
+
+<!-- USP-Footer: immer sichtbar -->
+<div class="usp">
+  <span>🦊 Von keiner Kette bezahlt.</span>
+  <span>Eigenmarke gegen Eigenmarke, per Grundpreis.</span>
+  <span>Lieber Lücke als Lüge.</span>
+  <span id="usp-stand" class="mut"></span>
+  <a href="https://pfennigfuchser-dd.github.io/#impressum">Impressum</a>
+</div>
+
+<!-- Tab-Leiste -->
+<nav class="tabbar" role="tablist" aria-label="Ansicht">
+  <button class="tab active" data-view="heute" role="tab" aria-selected="true" aria-controls="view-heute">🧾 Heute</button>
+  <button class="tab" data-view="liste" role="tab" aria-selected="false" aria-controls="view-liste">🛒 Meine Liste</button>
+</nav>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+/* Pfennigfuchser App — Kassenzettel-CI (02_Design/CI.md). Kein Dunkelmodus, Papier. */
+@font-face{font-family:"DejaVu Sans Mono";src:url("fonts/DejaVuSansMono.woff2") format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"DejaVu Sans Mono";src:url("fonts/DejaVuSansMono-Bold.woff2") format("woff2");font-weight:700;font-display:swap}
+
+:root{
+  --bg:#E9E4DB; --paper:#FFFEFA; --ink:#1A1A1A; --muted:#63605A;
+  --line:#C9C3B8; --fox:#E85D26; --save:#1B7A45; --shadow:rgba(0,0,0,.07);
+  /* Ketten: kontraststark auf Papier UND #E9E4DB (Netto-Gold abgedunkelt für AA) */
+  --aldi:#00005F; --lidl:#0050AA; --netto:#8A6D00; --rewe:#CC0000; --penny:#CD1414; --kaufland:#C50813;
+  --mono:"DejaVu Sans Mono","JetBrains Mono","IBM Plex Mono",ui-monospace,monospace;
+  --tab-h:60px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+html,body{overflow-x:hidden}
+body{
+  background:var(--bg);color:var(--ink);font-family:var(--mono);line-height:1.5;
+  padding-bottom:calc(var(--tab-h) + env(safe-area-inset-bottom));
+  max-width:560px;margin:0 auto;min-height:100vh;
+}
+.center{text-align:center}.mut{color:var(--muted)}.small{font-size:12.5px}
+
+/* Topbar */
+.topbar{position:sticky;top:0;z-index:20;background:var(--bg);padding:10px 14px 8px;border-bottom:2px dotted var(--line)}
+.brandrow{display:flex;align-items:center;gap:8px}
+.brandname{font-weight:bold;letter-spacing:1px;font-size:16px}
+.city{color:var(--muted);font-size:11px;letter-spacing:2px;font-weight:normal}
+.install{margin-left:auto;border:2px solid var(--fox);color:var(--fox);background:var(--paper);
+  font-family:var(--mono);font-weight:bold;font-size:12px;padding:6px 12px;min-height:44px;cursor:pointer}
+.install:hover{background:var(--fox);color:var(--paper)}
+.datebar{color:var(--muted);font-size:12px;letter-spacing:1px;margin-top:4px}
+.ios-hint{margin-top:6px;font-size:12px;color:var(--ink);background:var(--paper);
+  border:2px solid var(--fox);padding:7px 10px}
+.ios-hint b{white-space:nowrap}
+
+/* Sichtbarer Tastatur-Fokus (vorher unsichtbar) */
+:focus-visible{outline:3px solid var(--fox);outline-offset:2px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+.view{padding:14px 12px 6px}
+
+/* Bon-Papier */
+.bon{background:var(--paper);padding:18px 16px;box-shadow:6px 6px 0 var(--shadow);
+  clip-path:polygon(0 0,4% 8px,8% 0,12% 8px,16% 0,20% 8px,24% 0,28% 8px,32% 0,36% 8px,40% 0,44% 8px,48% 0,52% 8px,56% 0,60% 8px,64% 0,68% 8px,72% 0,76% 8px,80% 0,84% 8px,88% 0,92% 8px,96% 0,100% 8px,100% 100%,96% calc(100% - 8px),92% 100%,88% calc(100% - 8px),84% 100%,80% calc(100% - 8px),76% 100%,72% calc(100% - 8px),68% 100%,64% calc(100% - 8px),60% 100%,56% calc(100% - 8px),52% 100%,48% calc(100% - 8px),44% 100%,40% calc(100% - 8px),36% 100%,32% calc(100% - 8px),28% 100%,24% calc(100% - 8px),20% 100%,16% calc(100% - 8px),12% 100%,8% calc(100% - 8px),4% 100%,0 calc(100% - 8px))}
+.bon .head{text-align:center;margin-bottom:6px}
+.bon .claim{font-size:13px;color:var(--muted)}
+.bon .basket{font-weight:bold;color:var(--save);font-size:15px;margin-top:4px}
+hr.dash{border:none;border-top:3px dashed var(--line);margin:12px 0}
+.sum{display:flex;justify-content:space-between;font-size:12px;color:var(--muted);letter-spacing:.3px}
+
+.row{padding:9px 0 7px}
+.row + .row{border-top:2px dotted var(--line)}
+.rowhead{cursor:pointer}
+.row .l1{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.row .pname{font-weight:bold;font-size:15px;text-transform:uppercase;letter-spacing:.2px}
+.row .price{font-weight:bold;font-size:16px;white-space:nowrap}
+.row .l2{display:flex;justify-content:space-between;gap:8px;font-size:12px;margin-top:2px}
+.row .spec{color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.row .chain{font-weight:bold;text-transform:uppercase;white-space:nowrap}
+.row .l3{display:flex;justify-content:space-between;gap:8px;font-size:12px;margin-top:1px}
+.row .save{color:var(--save);font-weight:bold}
+.row .chev{color:var(--muted)}
+.row .promo{color:var(--fox)}
+.chain.aldi{color:var(--aldi)}.chain.lidl{color:var(--lidl)}.chain.netto{color:var(--netto)}
+.chain.rewe{color:var(--rewe)}.chain.penny{color:var(--penny)}.chain.kaufland{color:var(--kaufland)}
+
+.detail{padding:6px 0 2px;font-size:12px}
+.detail .offer{display:flex;justify-content:space-between;padding:2px 0}
+.detail .op{font-weight:bold}
+.detail .raw{color:var(--muted);margin-top:5px}
+.charttitle{color:var(--muted);font-size:11px;letter-spacing:.4px;margin:7px 0 2px;text-transform:uppercase}
+canvas.spark{width:100%;height:58px;display:block}
+
+.fakt{margin-top:12px;font-size:13px}.fakt b{color:var(--fox)}
+.disclaimer{font-size:11px;color:var(--muted);margin-top:10px}
+.served{text-align:center;font-weight:bold;font-size:12px;margin-top:12px}
+
+.demo-banner{border:3px solid var(--fox);color:var(--fox);font-weight:bold;text-align:center;
+  padding:9px;margin:0 0 12px;letter-spacing:1px}
+
+/* Meine Liste */
+.liste-intro{background:var(--paper);padding:16px;box-shadow:6px 6px 0 var(--shadow);margin-bottom:14px}
+.liste-intro h2{font-size:16px;letter-spacing:.5px;text-transform:uppercase}
+.liste-intro p{font-size:13px;color:var(--muted);margin-top:6px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:12px}
+.chip{display:flex;align-items:center;gap:6px;border:2px solid var(--line);background:var(--paper);
+  padding:9px 10px;min-height:44px;font-family:var(--mono);font-size:13px;text-align:left;cursor:pointer;color:var(--ink)}
+.chip.on{border-color:var(--ink);background:var(--ink);color:var(--paper)}
+.chip .em{font-size:15px}
+.actions{display:flex;gap:8px;margin-top:12px}
+.btn{flex:1;border:3px solid var(--ink);background:var(--paper);color:var(--ink);
+  font-family:var(--mono);font-weight:bold;font-size:14px;padding:12px;cursor:pointer;letter-spacing:.5px}
+.btn:hover{background:var(--ink);color:var(--paper)}
+.btn.primary{border-color:var(--fox);color:var(--fox)}
+.btn.primary:hover{background:var(--fox);color:var(--paper)}
+
+.result-head{background:var(--paper);padding:14px 16px;box-shadow:6px 6px 0 var(--shadow);margin-bottom:12px;text-align:center}
+.result-head .big{font-weight:bold;font-size:17px}
+.result-head .sub{color:var(--save);font-weight:bold;font-size:15px;margin-top:4px}
+.result-head .note{color:var(--muted);font-size:12px;margin-top:4px}
+.mrow{display:flex;justify-content:space-between;align-items:baseline;gap:8px;padding:10px 0;border-top:2px dotted var(--line)}
+.mrow:first-child{border-top:none}
+.mrow .mn{font-weight:bold;text-transform:uppercase;font-size:14px}
+.mrow .mchain{font-size:12px;font-weight:bold;text-transform:uppercase}
+.mrow .mprice{font-weight:bold;font-size:15px;white-space:nowrap}
+.mrow.gap{opacity:.7}
+.mrow.gap .mprice{color:var(--muted);font-weight:normal;font-size:12px}
+
+.korb{background:var(--paper);padding:14px 16px;box-shadow:6px 6px 0 var(--shadow);margin-bottom:12px;border:2px solid var(--fox)}
+.korb .ktitle{font-weight:bold;color:var(--fox);letter-spacing:.5px;font-size:13px}
+.korb .kbig{font-size:15px;margin-top:6px;line-height:1.45}
+.korb .knote{color:var(--muted);font-size:11.5px;margin-top:8px}
+
+/* USP-Footer */
+.usp{padding:12px 14px 8px;font-size:11px;color:var(--ink);display:flex;flex-wrap:wrap;gap:4px 10px;
+  border-top:2px dotted var(--line);margin-top:6px}
+.usp a{color:var(--ink)}
+
+/* Tab-Leiste */
+.tabbar{position:fixed;bottom:0;left:0;right:0;max-width:560px;margin:0 auto;height:var(--tab-h);
+  display:flex;background:var(--paper);border-top:3px solid var(--ink);
+  padding-bottom:env(safe-area-inset-bottom)}
+.tab{flex:1;border:none;background:none;font-family:var(--mono);font-weight:bold;font-size:14px;
+  color:var(--muted);cursor:pointer;letter-spacing:.3px}
+.tab.active{color:var(--ink);box-shadow:inset 0 3px 0 var(--fox)}
