@@ -2,10 +2,10 @@
   "brand": "Pfennigfuchser Dresden",
   "claim": "Jeden Tag. Jeder Pfennig.",
   "date": "2026-07-25",
-  "generated_at": "2026-07-25T07:31:54+00:00",
+  "generated_at": "2026-07-25T07:41:02+00:00",
   "basket_savings": "10,07 €",
-  "n_products": 15,
-  "fun_fact": "Grundpreis lesen ist die halbe Miete.",
+  "n_products": 14,
+  "fun_fact": "14 der 14 Tagessieger sind heute Aktionspreise.",
   "is_demo": false,
   "sources": [
     "marktguru"
@@ -690,42 +690,6 @@
           "price": "0,59 €/kg",
           "is_promo": true,
           "brand": "Belbake"
-        }
-      ]
-    },
-    {
-      "id": "quark",
-      "name": "Speisequark",
-      "spec": "Magerstufe",
-      "emoji": "🥣",
-      "category": "Molkerei",
-      "cheapest": {
-        "chain": "Kaufland",
-        "color": "#E10915",
-        "price": "0,34 €/100 g",
-        "is_promo": true,
-        "brand": "Sachsenland",
-        "raw_label": "Sachsenland Speisequarkzubereitung · versch. Sorten, 10 - 40 % Fett i. Tr. je 200-g-Becher",
-        "vs": null
-      },
-      "savings": "0,00 €",
-      "is_30d_low": false,
-      "history_days": 12,
-      "spark": [
-        34,
-        34
-      ],
-      "spark_dates": [
-        "2026-07-24",
-        "2026-07-25"
-      ],
-      "offers": [
-        {
-          "chain": "Kaufland",
-          "color": "#E10915",
-          "price": "0,34 €/100 g",
-          "is_promo": true,
-          "brand": "Sachsenland"
         }
       ]
     },
