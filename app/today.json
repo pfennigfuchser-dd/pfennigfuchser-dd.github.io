@@ -1,11 +1,11 @@
 {
   "brand": "Pfennigfuchser Dresden",
   "claim": "Jeden Tag. Jeder Pfennig.",
-  "date": "2026-07-24",
-  "generated_at": "2026-07-24T16:06:49+00:00",
-  "basket_savings": "10,17 €",
+  "date": "2026-07-25",
+  "generated_at": "2026-07-25T07:31:54+00:00",
+  "basket_savings": "10,07 €",
   "n_products": 15,
-  "fun_fact": "15 der 15 Tagessieger sind heute Aktionspreise.",
+  "fun_fact": "Grundpreis lesen ist die halbe Miete.",
   "is_demo": false,
   "sources": [
     "marktguru"
@@ -28,10 +28,11 @@
       },
       "savings": "3,16 €",
       "is_30d_low": false,
-      "history_days": 14,
+      "history_days": 15,
       "spark": [
         686,
         686,
+        583,
         583,
         583,
         583,
@@ -55,7 +56,8 @@
         "2026-07-19",
         "2026-07-20",
         "2026-07-21",
-        "2026-07-24"
+        "2026-07-24",
+        "2026-07-25"
       ],
       "offers": [
         {
@@ -105,7 +107,7 @@
       },
       "savings": "2,19 €",
       "is_30d_low": false,
-      "history_days": 14,
+      "history_days": 15,
       "spark": [
         90,
         90,
@@ -115,6 +117,7 @@
         125,
         99,
         99,
+        100,
         100,
         100,
         100,
@@ -132,7 +135,8 @@
         "2026-07-19",
         "2026-07-20",
         "2026-07-21",
-        "2026-07-24"
+        "2026-07-24",
+        "2026-07-25"
       ],
       "offers": [
         {
@@ -143,18 +147,18 @@
           "brand": null
         },
         {
-          "chain": "Lidl",
-          "color": "#0050aa",
-          "price": "1,09 €/kg",
-          "is_promo": true,
-          "brand": null
-        },
-        {
           "chain": "Netto",
           "color": "#C9A100",
           "price": "1,25 €/kg",
           "is_promo": true,
           "brand": "Ein Herz für Erzeuger"
+        },
+        {
+          "chain": "Lidl",
+          "color": "#0050aa",
+          "price": "1,99 €/kg",
+          "is_promo": true,
+          "brand": null
         },
         {
           "chain": "Kaufland",
@@ -189,7 +193,7 @@
       },
       "savings": "2,00 €",
       "is_30d_low": false,
-      "history_days": 14,
+      "history_days": 15,
       "spark": [
         90,
         90,
@@ -202,6 +206,7 @@
         110,
         110,
         110,
+        100,
         100
       ],
       "spark_dates": [
@@ -216,7 +221,8 @@
         "2026-07-19",
         "2026-07-20",
         "2026-07-21",
-        "2026-07-24"
+        "2026-07-24",
+        "2026-07-25"
       ],
       "offers": [
         {
@@ -266,8 +272,9 @@
       },
       "savings": "1,99 €",
       "is_30d_low": false,
-      "history_days": 11,
+      "history_days": 12,
       "spark": [
+        159,
         159,
         159,
         159,
@@ -289,7 +296,8 @@
         "2026-07-19",
         "2026-07-20",
         "2026-07-21",
-        "2026-07-24"
+        "2026-07-24",
+        "2026-07-25"
       ],
       "offers": [
         {
@@ -325,7 +333,7 @@
       },
       "savings": "0,40 €",
       "is_30d_low": false,
-      "history_days": 14,
+      "history_days": 15,
       "spark": [
         96,
         96,
@@ -335,6 +343,7 @@
         100,
         87,
         87,
+        80,
         80,
         80,
         80,
@@ -352,7 +361,8 @@
         "2026-07-19",
         "2026-07-20",
         "2026-07-21",
-        "2026-07-24"
+        "2026-07-24",
+        "2026-07-25"
       ],
       "offers": [
         {
@@ -402,8 +412,9 @@
       },
       "savings": "0,20 €",
       "is_30d_low": false,
-      "history_days": 5,
+      "history_days": 6,
       "spark": [
+        16,
         16,
         16,
         16,
@@ -413,7 +424,8 @@
         "2026-07-19",
         "2026-07-20",
         "2026-07-21",
-        "2026-07-24"
+        "2026-07-24",
+        "2026-07-25"
       ],
       "offers": [
         {
@@ -449,7 +461,7 @@
       },
       "savings": "0,13 €",
       "is_30d_low": false,
-      "history_days": 14,
+      "history_days": 15,
       "spark": [
         99,
         99,
@@ -458,6 +470,7 @@
         99,
         99,
         99,
+        106,
         106
       ],
       "spark_dates": [
@@ -468,7 +481,8 @@
         "2026-07-19",
         "2026-07-20",
         "2026-07-21",
-        "2026-07-24"
+        "2026-07-24",
+        "2026-07-25"
       ],
       "offers": [
         {
@@ -494,17 +508,17 @@
       "emoji": "🍌",
       "category": "Obst",
       "cheapest": {
-        "chain": "Lidl",
-        "color": "#0050aa",
-        "price": "1,69 €/kg",
+        "chain": "Rewe",
+        "color": "#cc0000",
+        "price": "1,79 €/kg",
         "is_promo": true,
-        "brand": null,
-        "raw_label": "Bananen · lose Ursprung: Kolumbien/ Ecuador/Guatemala, kg",
-        "vs": "Rewe"
+        "brand": "Rewe Beste Wahl",
+        "raw_label": "Rewe Beste Wahl Bananen · Ursprung: siehe Etikett, je 1 kg",
+        "vs": null
       },
-      "savings": "0,10 €",
+      "savings": "0,00 €",
       "is_30d_low": false,
-      "history_days": 13,
+      "history_days": 14,
       "spark": [
         99,
         99,
@@ -516,7 +530,8 @@
         169,
         169,
         169,
-        169
+        169,
+        179
       ],
       "spark_dates": [
         "2026-07-11",
@@ -529,16 +544,10 @@
         "2026-07-19",
         "2026-07-20",
         "2026-07-21",
-        "2026-07-24"
+        "2026-07-24",
+        "2026-07-25"
       ],
       "offers": [
-        {
-          "chain": "Lidl",
-          "color": "#0050aa",
-          "price": "1,69 €/kg",
-          "is_promo": true,
-          "brand": null
-        },
         {
           "chain": "Rewe",
           "color": "#cc0000",
@@ -565,10 +574,11 @@
       },
       "savings": "0,00 €",
       "is_30d_low": false,
-      "history_days": 14,
+      "history_days": 15,
       "spark": [
         40,
         40,
+        64,
         64,
         64,
         64,
@@ -580,7 +590,8 @@
         "2026-07-19",
         "2026-07-20",
         "2026-07-21",
-        "2026-07-24"
+        "2026-07-24",
+        "2026-07-25"
       ],
       "offers": [
         {
@@ -609,12 +620,14 @@
       },
       "savings": "0,00 €",
       "is_30d_low": false,
-      "history_days": 0,
+      "history_days": 1,
       "spark": [
+        320,
         320
       ],
       "spark_dates": [
-        "2026-07-24"
+        "2026-07-24",
+        "2026-07-25"
       ],
       "offers": [
         {
@@ -643,8 +656,9 @@
       },
       "savings": "0,00 €",
       "is_30d_low": false,
-      "history_days": 11,
+      "history_days": 12,
       "spark": [
+        59,
         59,
         59,
         59,
@@ -666,7 +680,8 @@
         "2026-07-19",
         "2026-07-20",
         "2026-07-21",
-        "2026-07-24"
+        "2026-07-24",
+        "2026-07-25"
       ],
       "offers": [
         {
@@ -695,12 +710,14 @@
       },
       "savings": "0,00 €",
       "is_30d_low": false,
-      "history_days": 11,
+      "history_days": 12,
       "spark": [
+        34,
         34
       ],
       "spark_dates": [
-        "2026-07-24"
+        "2026-07-24",
+        "2026-07-25"
       ],
       "offers": [
         {
@@ -729,12 +746,14 @@
       },
       "savings": "0,00 €",
       "is_30d_low": false,
-      "history_days": 0,
+      "history_days": 1,
       "spark": [
+        14,
         14
       ],
       "spark_dates": [
-        "2026-07-24"
+        "2026-07-24",
+        "2026-07-25"
       ],
       "offers": [
         {
@@ -763,8 +782,9 @@
       },
       "savings": "0,00 €",
       "is_30d_low": false,
-      "history_days": 11,
+      "history_days": 12,
       "spark": [
+        95,
         95,
         95,
         95,
@@ -786,7 +806,8 @@
         "2026-07-19",
         "2026-07-20",
         "2026-07-21",
-        "2026-07-24"
+        "2026-07-24",
+        "2026-07-25"
       ],
       "offers": [
         {
@@ -815,8 +836,9 @@
       },
       "savings": "0,00 €",
       "is_30d_low": false,
-      "history_days": 11,
+      "history_days": 12,
       "spark": [
+        84,
         84,
         84,
         84,
@@ -826,7 +848,8 @@
         "2026-07-19",
         "2026-07-20",
         "2026-07-21",
-        "2026-07-24"
+        "2026-07-24",
+        "2026-07-25"
       ],
       "offers": [
         {
