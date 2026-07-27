@@ -2,10 +2,10 @@
   "brand": "Pfennigfuchser Dresden",
   "claim": "Jeden Tag. Jeder Pfennig.",
   "date": "2026-07-27",
-  "generated_at": "2026-07-27T15:52:33+00:00",
+  "generated_at": "2026-07-27T15:53:29+00:00",
   "basket_savings": "12,67 €",
-  "n_products": 17,
-  "fun_fact": "17 der 17 Tagessieger sind heute Aktionspreise.",
+  "n_products": 16,
+  "fun_fact": "16 der 16 Tagessieger sind heute Aktionspreise.",
   "is_demo": false,
   "sources": [
     "marktguru"
@@ -716,64 +716,6 @@
           "price": "0,40 €/100 g",
           "is_promo": true,
           "brand": "Milbona"
-        }
-      ]
-    },
-    {
-      "id": "reis",
-      "name": "Reis",
-      "spec": "Parboiled Langkorn",
-      "emoji": "🍚",
-      "category": "Basis",
-      "cheapest": {
-        "chain": "Penny",
-        "color": "#CD1414",
-        "price": "3,58 €/kg",
-        "is_promo": true,
-        "brand": "Ben's Original",
-        "raw_label": "Ben's Original Kochbeutel-Reis · versch. Sorten je 4 x 125 g",
-        "vs": null
-      },
-      "savings": "0,00 €",
-      "is_30d_low": false,
-      "history_days": 14,
-      "spark": [
-        159,
-        159,
-        159,
-        159,
-        159,
-        159,
-        159,
-        159,
-        159,
-        159,
-        159,
-        358,
-        358
-      ],
-      "spark_dates": [
-        "2026-07-13",
-        "2026-07-14",
-        "2026-07-15",
-        "2026-07-16",
-        "2026-07-17",
-        "2026-07-18",
-        "2026-07-19",
-        "2026-07-20",
-        "2026-07-21",
-        "2026-07-24",
-        "2026-07-25",
-        "2026-07-26",
-        "2026-07-27"
-      ],
-      "offers": [
-        {
-          "chain": "Penny",
-          "color": "#CD1414",
-          "price": "3,58 €/kg",
-          "is_promo": true,
-          "brand": "Ben's Original"
         }
       ]
     },
