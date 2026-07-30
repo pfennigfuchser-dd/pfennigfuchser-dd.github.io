@@ -2,8 +2,8 @@
   "brand": "Pfennigfuchser Dresden",
   "claim": "Jeden Tag. Jeder Pfennig.",
   "date": "2026-07-30",
-  "generated_at": "2026-07-30T06:49:11+00:00",
-  "basket_savings": "13,67 €",
+  "generated_at": "2026-07-30T06:51:46+00:00",
+  "basket_savings": "13,66 €",
   "n_products": 15,
   "fun_fact": "15 der 15 Tagessieger sind heute Aktionspreise.",
   "is_demo": false,
@@ -617,73 +617,6 @@
       ]
     },
     {
-      "id": "zwiebeln",
-      "name": "Zwiebeln",
-      "spec": "gelb, 2 kg Netz",
-      "emoji": "🧅",
-      "category": "Gemüse",
-      "cheapest": {
-        "chain": "Kaufland",
-        "color": "#E10915",
-        "price": "0,99 €/kg",
-        "is_promo": true,
-        "brand": null,
-        "raw_label": "Zwiebeln · Dtsch./ägypt.  rot Kl. I je 1-kg-Packg.",
-        "vs": "Netto"
-      },
-      "savings": "0,01 €",
-      "is_30d_low": false,
-      "history_days": 20,
-      "spark": [
-        99,
-        99,
-        99,
-        99,
-        99,
-        99,
-        99,
-        106,
-        106,
-        100,
-        100,
-        100,
-        100,
-        99
-      ],
-      "spark_dates": [
-        "2026-07-10",
-        "2026-07-11",
-        "2026-07-17",
-        "2026-07-18",
-        "2026-07-19",
-        "2026-07-20",
-        "2026-07-21",
-        "2026-07-24",
-        "2026-07-25",
-        "2026-07-26",
-        "2026-07-27",
-        "2026-07-28",
-        "2026-07-29",
-        "2026-07-30"
-      ],
-      "offers": [
-        {
-          "chain": "Kaufland",
-          "color": "#E10915",
-          "price": "0,99 €/kg",
-          "is_promo": true,
-          "brand": null
-        },
-        {
-          "chain": "Netto",
-          "color": "#C9A100",
-          "price": "1,00 €/kg",
-          "is_promo": true,
-          "brand": "Heimat"
-        }
-      ]
-    },
-    {
       "id": "butter",
       "name": "Butter",
       "spec": "Deutsche Markenbutter",
@@ -992,6 +925,66 @@
           "price": "0,84 €/kg",
           "is_promo": true,
           "brand": "Diamant"
+        }
+      ]
+    },
+    {
+      "id": "zwiebeln",
+      "name": "Zwiebeln",
+      "spec": "gelb, 2 kg Netz",
+      "emoji": "🧅",
+      "category": "Gemüse",
+      "cheapest": {
+        "chain": "Netto",
+        "color": "#C9A100",
+        "price": "1,00 €/kg",
+        "is_promo": true,
+        "brand": "Heimat",
+        "raw_label": "Heimat Zwiebeln XXL · 3 kg Sack Deutschland, Kl. II",
+        "vs": null
+      },
+      "savings": "0,00 €",
+      "is_30d_low": false,
+      "history_days": 20,
+      "spark": [
+        99,
+        99,
+        99,
+        99,
+        99,
+        99,
+        99,
+        106,
+        106,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "spark_dates": [
+        "2026-07-10",
+        "2026-07-11",
+        "2026-07-17",
+        "2026-07-18",
+        "2026-07-19",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-24",
+        "2026-07-25",
+        "2026-07-26",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30"
+      ],
+      "offers": [
+        {
+          "chain": "Netto",
+          "color": "#C9A100",
+          "price": "1,00 €/kg",
+          "is_promo": true,
+          "brand": "Heimat"
         }
       ]
     }
