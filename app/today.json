@@ -1,109 +1,16 @@
 {
   "brand": "Pfennigfuchser Dresden",
   "claim": "Jeden Tag. Jeder Pfennig.",
-  "date": "2026-08-01",
-  "generated_at": "2026-08-01T06:49:19+00:00",
-  "basket_savings": "13,66 €",
+  "date": "2026-08-03",
+  "generated_at": "2026-08-03T08:44:58+00:00",
+  "basket_savings": "11,65 €",
   "n_products": 15,
-  "fun_fact": "15 der 15 Tagessieger sind heute Aktionspreise.",
+  "fun_fact": "Hackfleisch gemischt ist heute so günstig wie noch nie seit Messbeginn vor 24 Tagen.",
   "is_demo": false,
   "sources": [
     "marktguru"
   ],
   "items": [
-    {
-      "id": "hack",
-      "name": "Hackfleisch gemischt",
-      "spec": "Rind/Schwein",
-      "emoji": "🥩",
-      "category": "Fleisch",
-      "cheapest": {
-        "chain": "Penny",
-        "color": "#CD1414",
-        "price": "6,24 €/kg",
-        "is_promo": true,
-        "brand": "Mühlenhof",
-        "raw_label": "Mühlenhof Hackfleisch · gemischt Vom Schwein und Rind, je 800-g-Packung",
-        "vs": "Rewe"
-      },
-      "savings": "4,92 €",
-      "is_30d_low": false,
-      "history_days": 22,
-      "spark": [
-        686,
-        686,
-        583,
-        583,
-        583,
-        583,
-        583,
-        583,
-        583,
-        583,
-        583,
-        583,
-        583,
-        624,
-        624,
-        624,
-        624,
-        624,
-        624,
-        624
-      ],
-      "spark_dates": [
-        "2026-07-10",
-        "2026-07-11",
-        "2026-07-13",
-        "2026-07-14",
-        "2026-07-15",
-        "2026-07-16",
-        "2026-07-17",
-        "2026-07-18",
-        "2026-07-19",
-        "2026-07-20",
-        "2026-07-21",
-        "2026-07-24",
-        "2026-07-25",
-        "2026-07-26",
-        "2026-07-27",
-        "2026-07-28",
-        "2026-07-29",
-        "2026-07-30",
-        "2026-07-31",
-        "2026-08-01"
-      ],
-      "offers": [
-        {
-          "chain": "Penny",
-          "color": "#CD1414",
-          "price": "6,24 €/kg",
-          "is_promo": true,
-          "brand": "Mühlenhof"
-        },
-        {
-          "chain": "Kaufland",
-          "color": "#E10915",
-          "price": "6,99 €/kg",
-          "is_promo": true,
-          "brand": "K-Purland"
-        },
-        {
-          "chain": "Netto",
-          "color": "#C9A100",
-          "price": "9,97 €/kg",
-          "is_promo": true,
-          "brand": "Gut Ponholz"
-        },
-        {
-          "chain": "Rewe",
-          "color": "#cc0000",
-          "price": "11,16 €/kg",
-          "is_promo": true,
-          "brand": "Metzgerei Wilhelm Brandenburg"
-        }
-      ]
-    },
     {
       "id": "kaffee",
       "name": "Kaffee gemahlen",
@@ -111,17 +18,17 @@
       "emoji": "☕",
       "category": "Getränke",
       "cheapest": {
-        "chain": "Netto",
-        "color": "#C9A100",
-        "price": "0,90 €/100 g",
+        "chain": "Lidl",
+        "color": "#0050aa",
+        "price": "0,70 €/100 g",
         "is_promo": true,
-        "brand": "Cafèt",
-        "raw_label": "Cafèt Kaffee Extra · 500 g gemahlen",
-        "vs": "Rewe"
+        "brand": "Bellarom",
+        "raw_label": "Bellarom Family Kaffeegetränk · Versch. Sorten. Je 500 g",
+        "vs": "Penny"
       },
-      "savings": "4,50 €",
+      "savings": "3,51 €",
       "is_30d_low": false,
-      "history_days": 22,
+      "history_days": 24,
       "spark": [
         90,
         90,
@@ -142,7 +49,8 @@
         90,
         90,
         90,
-        90
+        90,
+        70
       ],
       "spark_dates": [
         "2026-07-10",
@@ -164,9 +72,17 @@
         "2026-07-29",
         "2026-07-30",
         "2026-07-31",
-        "2026-08-01"
+        "2026-08-01",
+        "2026-08-03"
       ],
       "offers": [
+        {
+          "chain": "Lidl",
+          "color": "#0050aa",
+          "price": "0,70 €/100 g",
+          "is_promo": true,
+          "brand": "Bellarom"
+        },
         {
           "chain": "Netto",
           "color": "#C9A100",
@@ -175,18 +91,11 @@
           "brand": "Cafèt"
         },
         {
-          "chain": "Lidl",
-          "color": "#0050aa",
-          "price": "1,20 €/100 g",
+          "chain": "Rewe",
+          "color": "#cc0000",
+          "price": "1,10 €/100 g",
           "is_promo": true,
-          "brand": "Melitta"
-        },
-        {
-          "chain": "Penny",
-          "color": "#CD1414",
-          "price": "1,20 €/100 g",
-          "is_promo": true,
-          "brand": "Melitta"
+          "brand": "Röstfein"
         },
         {
           "chain": "Kaufland",
@@ -196,11 +105,172 @@
           "brand": "Dallmayr"
         },
         {
-          "chain": "Rewe",
-          "color": "#cc0000",
-          "price": "1,80 €/100 g",
+          "chain": "Penny",
+          "color": "#CD1414",
+          "price": "1,40 €/100 g",
           "is_promo": true,
-          "brand": "Dallmayr"
+          "brand": "Lavazza"
+        }
+      ]
+    },
+    {
+      "id": "hack",
+      "name": "Hackfleisch gemischt",
+      "spec": "Rind/Schwein",
+      "emoji": "🥩",
+      "category": "Fleisch",
+      "cheapest": {
+        "chain": "Lidl",
+        "color": "#0050aa",
+        "price": "3,99 €/kg",
+        "is_promo": true,
+        "brand": "Metzgerfrisch",
+        "raw_label": "Metzgerfrisch Schweine-Hackfleisch XXL · Frisches Schweine- Hackfleisch  Je 1 kg; Standard-packung: 5",
+        "vs": "Kaufland"
+      },
+      "savings": "3,00 €",
+      "is_30d_low": false,
+      "history_days": 24,
+      "spark": [
+        686,
+        686,
+        583,
+        583,
+        583,
+        583,
+        583,
+        583,
+        583,
+        583,
+        583,
+        583,
+        583,
+        624,
+        624,
+        624,
+        624,
+        624,
+        624,
+        624,
+        399
+      ],
+      "spark_dates": [
+        "2026-07-10",
+        "2026-07-11",
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17",
+        "2026-07-18",
+        "2026-07-19",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-24",
+        "2026-07-25",
+        "2026-07-26",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31",
+        "2026-08-01",
+        "2026-08-03"
+      ],
+      "offers": [
+        {
+          "chain": "Lidl",
+          "color": "#0050aa",
+          "price": "3,99 €/kg",
+          "is_promo": true,
+          "brand": "Metzgerfrisch"
+        },
+        {
+          "chain": "Netto",
+          "color": "#C9A100",
+          "price": "5,98 €/kg",
+          "is_promo": true,
+          "brand": "Gut Ponholz"
+        },
+        {
+          "chain": "Kaufland",
+          "color": "#E10915",
+          "price": "6,99 €/kg",
+          "is_promo": true,
+          "brand": "K-Purland"
+        }
+      ]
+    },
+    {
+      "id": "zwiebeln",
+      "name": "Zwiebeln",
+      "spec": "gelb, 2 kg Netz",
+      "emoji": "🧅",
+      "category": "Gemüse",
+      "cheapest": {
+        "chain": "Penny",
+        "color": "#CD1414",
+        "price": "0,94 €/kg",
+        "is_promo": true,
+        "brand": "Marktliebe",
+        "raw_label": "Marktliebe Zwiebeln · Kl. II, je 2-kg-Netz",
+        "vs": "Lidl"
+      },
+      "savings": "2,05 €",
+      "is_30d_low": false,
+      "history_days": 24,
+      "spark": [
+        99,
+        99,
+        99,
+        99,
+        99,
+        99,
+        99,
+        106,
+        106,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        94
+      ],
+      "spark_dates": [
+        "2026-07-10",
+        "2026-07-11",
+        "2026-07-17",
+        "2026-07-18",
+        "2026-07-19",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-24",
+        "2026-07-25",
+        "2026-07-26",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31",
+        "2026-08-01",
+        "2026-08-03"
+      ],
+      "offers": [
+        {
+          "chain": "Penny",
+          "color": "#CD1414",
+          "price": "0,94 €/kg",
+          "is_promo": true,
+          "brand": "Marktliebe"
+        },
+        {
+          "chain": "Lidl",
+          "color": "#0050aa",
+          "price": "2,99 €/kg",
+          "is_promo": true,
+          "brand": null
         }
       ]
     },
@@ -211,17 +281,17 @@
       "emoji": "🍎",
       "category": "Obst",
       "cheapest": {
-        "chain": "Netto",
-        "color": "#C9A100",
+        "chain": "Penny",
+        "color": "#CD1414",
         "price": "0,90 €/kg",
         "is_promo": true,
-        "brand": "Heimat",
-        "raw_label": "Heimat Äpfel XXL · rot 2 kg Beutel Deutschland, Kl. II",
-        "vs": "Lidl"
+        "brand": null,
+        "raw_label": "Rote Äpfel · Deutsche Kl. II, je 2-kg-Beutel",
+        "vs": "Rewe"
       },
       "savings": "1,59 €",
       "is_30d_low": false,
-      "history_days": 22,
+      "history_days": 24,
       "spark": [
         90,
         90,
@@ -236,6 +306,7 @@
         100,
         100,
         100,
+        90,
         90,
         90,
         90,
@@ -264,15 +335,16 @@
         "2026-07-29",
         "2026-07-30",
         "2026-07-31",
-        "2026-08-01"
+        "2026-08-01",
+        "2026-08-03"
       ],
       "offers": [
         {
-          "chain": "Netto",
-          "color": "#C9A100",
+          "chain": "Penny",
+          "color": "#CD1414",
           "price": "0,90 €/kg",
           "is_promo": true,
-          "brand": "Heimat"
+          "brand": null
         },
         {
           "chain": "Kaufland",
@@ -282,18 +354,179 @@
           "brand": null
         },
         {
+          "chain": "Netto",
+          "color": "#C9A100",
+          "price": "2,49 €/kg",
+          "is_promo": true,
+          "brand": "BioBio"
+        },
+        {
+          "chain": "Rewe",
+          "color": "#cc0000",
+          "price": "2,49 €/kg",
+          "is_promo": true,
+          "brand": "Pink Lady"
+        }
+      ]
+    },
+    {
+      "id": "kartoffeln",
+      "name": "Kartoffeln",
+      "spec": "festkochend, 2,5 kg",
+      "emoji": "🥔",
+      "category": "Gemüse",
+      "cheapest": {
+        "chain": "Netto",
+        "color": "#C9A100",
+        "price": "0,99 €/kg",
+        "is_promo": true,
+        "brand": null,
+        "raw_label": "Speisekartoffeln Erdäpfel · Deutschland, versch. Kocheigenschaften 2 kg Netz",
+        "vs": "Rewe"
+      },
+      "savings": "1,00 €",
+      "is_30d_low": false,
+      "history_days": 24,
+      "spark": [
+        96,
+        96,
+        100,
+        100,
+        100,
+        100,
+        87,
+        87,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        100,
+        100,
+        100,
+        99
+      ],
+      "spark_dates": [
+        "2026-07-10",
+        "2026-07-11",
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17",
+        "2026-07-18",
+        "2026-07-19",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-24",
+        "2026-07-25",
+        "2026-07-26",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31",
+        "2026-08-01",
+        "2026-08-03"
+      ],
+      "offers": [
+        {
+          "chain": "Netto",
+          "color": "#C9A100",
+          "price": "0,99 €/kg",
+          "is_promo": true,
+          "brand": null
+        },
+        {
+          "chain": "Kaufland",
+          "color": "#E10915",
+          "price": "1,00 €/kg",
+          "is_promo": true,
+          "brand": null
+        },
+        {
           "chain": "Penny",
           "color": "#CD1414",
+          "price": "1,26 €/kg",
+          "is_promo": true,
+          "brand": "Naturgut"
+        },
+        {
+          "chain": "Rewe",
+          "color": "#cc0000",
           "price": "1,99 €/kg",
           "is_promo": true,
-          "brand": "Evelina"
+          "brand": "Rewe Beste Wahl"
+        }
+      ]
+    },
+    {
+      "id": "toast",
+      "name": "Toastbrot",
+      "spec": "Weizen, geschnitten",
+      "emoji": "🍞",
+      "category": "Basis",
+      "cheapest": {
+        "chain": "Penny",
+        "color": "#CD1414",
+        "price": "0,20 €/100 g",
+        "is_promo": true,
+        "brand": "Golden Toast",
+        "raw_label": "Golden Toast Toastbrot · Versch. Sorten, je 500 g",
+        "vs": "Kaufland"
+      },
+      "savings": "0,50 €",
+      "is_30d_low": false,
+      "history_days": 10,
+      "spark": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        30,
+        30,
+        30,
+        20
+      ],
+      "spark_dates": [
+        "2026-07-24",
+        "2026-07-25",
+        "2026-07-26",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31",
+        "2026-08-01",
+        "2026-08-03"
+      ],
+      "offers": [
+        {
+          "chain": "Penny",
+          "color": "#CD1414",
+          "price": "0,20 €/100 g",
+          "is_promo": true,
+          "brand": "Golden Toast"
         },
         {
           "chain": "Lidl",
           "color": "#0050aa",
-          "price": "2,49 €/kg",
+          "price": "0,20 €/100 g",
           "is_promo": true,
-          "brand": "Pink Lady"
+          "brand": "Golden Toast"
+        },
+        {
+          "chain": "Kaufland",
+          "color": "#E10915",
+          "price": "0,30 €/100 g",
+          "is_promo": true,
+          "brand": "Harry Brot"
         }
       ]
     },
@@ -304,17 +537,17 @@
       "emoji": "🍌",
       "category": "Obst",
       "cheapest": {
-        "chain": "Netto",
-        "color": "#C9A100",
-        "price": "1,00 €/kg",
+        "chain": "Kaufland",
+        "color": "#E10915",
+        "price": "1,79 €/kg",
         "is_promo": true,
         "brand": null,
-        "raw_label": "Bananen · 1 kg Costa Rica / Panama",
-        "vs": "Kaufland"
+        "raw_label": "Bananen · Demeter dominik./ecuador., lose je kg",
+        "vs": null
       },
-      "savings": "0,79 €",
+      "savings": "0,00 €",
       "is_30d_low": false,
-      "history_days": 21,
+      "history_days": 23,
       "spark": [
         99,
         99,
@@ -334,7 +567,8 @@
         100,
         100,
         100,
-        100
+        100,
+        179
       ],
       "spark_dates": [
         "2026-07-11",
@@ -355,289 +589,16 @@
         "2026-07-29",
         "2026-07-30",
         "2026-07-31",
-        "2026-08-01"
+        "2026-08-01",
+        "2026-08-03"
       ],
       "offers": [
-        {
-          "chain": "Netto",
-          "color": "#C9A100",
-          "price": "1,00 €/kg",
-          "is_promo": true,
-          "brand": null
-        },
         {
           "chain": "Kaufland",
           "color": "#E10915",
           "price": "1,79 €/kg",
           "is_promo": true,
           "brand": null
-        }
-      ]
-    },
-    {
-      "id": "haferdrink",
-      "name": "Haferdrink",
-      "spec": "Natur, ungesüßt",
-      "emoji": "🌾",
-      "category": "Molkerei-Alternativen",
-      "cheapest": {
-        "chain": "Netto",
-        "color": "#C9A100",
-        "price": "0,90 €/l",
-        "is_promo": true,
-        "brand": "BioBio",
-        "raw_label": "BioBio Bio-Haferdrink · HINWEIS: MIT NETTO PLUS APP 0.70 € ohne Zucker 1 l",
-        "vs": "Penny"
-      },
-      "savings": "0,76 €",
-      "is_30d_low": false,
-      "history_days": 6,
-      "spark": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
-      ],
-      "spark_dates": [
-        "2026-07-26",
-        "2026-07-27",
-        "2026-07-28",
-        "2026-07-29",
-        "2026-07-30",
-        "2026-07-31",
-        "2026-08-01"
-      ],
-      "offers": [
-        {
-          "chain": "Netto",
-          "color": "#C9A100",
-          "price": "0,90 €/l",
-          "is_promo": true,
-          "brand": "BioBio"
-        },
-        {
-          "chain": "Penny",
-          "color": "#CD1414",
-          "price": "1,66 €/l",
-          "is_promo": true,
-          "brand": "Oatly"
-        }
-      ]
-    },
-    {
-      "id": "kartoffeln",
-      "name": "Kartoffeln",
-      "spec": "festkochend, 2,5 kg",
-      "emoji": "🥔",
-      "category": "Gemüse",
-      "cheapest": {
-        "chain": "Kaufland",
-        "color": "#E10915",
-        "price": "1,00 €/kg",
-        "is_promo": true,
-        "brand": null,
-        "raw_label": "Speisefrühkartoffeln · Dtsch.  verschiedene Kocheigenschaften, ausgewählte Sorten l",
-        "vs": "Rewe"
-      },
-      "savings": "0,48 €",
-      "is_30d_low": false,
-      "history_days": 22,
-      "spark": [
-        96,
-        96,
-        100,
-        100,
-        100,
-        100,
-        87,
-        87,
-        80,
-        80,
-        80,
-        80,
-        80,
-        80,
-        80,
-        80,
-        80,
-        100,
-        100,
-        100
-      ],
-      "spark_dates": [
-        "2026-07-10",
-        "2026-07-11",
-        "2026-07-13",
-        "2026-07-14",
-        "2026-07-15",
-        "2026-07-16",
-        "2026-07-17",
-        "2026-07-18",
-        "2026-07-19",
-        "2026-07-20",
-        "2026-07-21",
-        "2026-07-24",
-        "2026-07-25",
-        "2026-07-26",
-        "2026-07-27",
-        "2026-07-28",
-        "2026-07-29",
-        "2026-07-30",
-        "2026-07-31",
-        "2026-08-01"
-      ],
-      "offers": [
-        {
-          "chain": "Kaufland",
-          "color": "#E10915",
-          "price": "1,00 €/kg",
-          "is_promo": true,
-          "brand": null
-        },
-        {
-          "chain": "Netto",
-          "color": "#C9A100",
-          "price": "1,00 €/kg",
-          "is_promo": true,
-          "brand": "Heimat"
-        },
-        {
-          "chain": "Rewe",
-          "color": "#cc0000",
-          "price": "1,48 €/kg",
-          "is_promo": true,
-          "brand": "Rewe Bio"
-        }
-      ]
-    },
-    {
-      "id": "quark",
-      "name": "Speisequark",
-      "spec": "Magerstufe",
-      "emoji": "🥣",
-      "category": "Molkerei",
-      "cheapest": {
-        "chain": "Kaufland",
-        "color": "#E10915",
-        "price": "0,32 €/100 g",
-        "is_promo": true,
-        "brand": "K-Bio",
-        "raw_label": "K-Bio Speisequark · 250g",
-        "vs": "Lidl"
-      },
-      "savings": "0,40 €",
-      "is_30d_low": false,
-      "history_days": 19,
-      "spark": [
-        40,
-        40,
-        40,
-        40,
-        32,
-        32,
-        32
-      ],
-      "spark_dates": [
-        "2026-07-26",
-        "2026-07-27",
-        "2026-07-28",
-        "2026-07-29",
-        "2026-07-30",
-        "2026-07-31",
-        "2026-08-01"
-      ],
-      "offers": [
-        {
-          "chain": "Kaufland",
-          "color": "#E10915",
-          "price": "0,32 €/100 g",
-          "is_promo": true,
-          "brand": "K-Bio"
-        },
-        {
-          "chain": "Lidl",
-          "color": "#0050aa",
-          "price": "0,40 €/100 g",
-          "is_promo": true,
-          "brand": "Milbona"
-        }
-      ]
-    },
-    {
-      "id": "mehl",
-      "name": "Weizenmehl",
-      "spec": "Type 405",
-      "emoji": "🌾",
-      "category": "Basis",
-      "cheapest": {
-        "chain": "Penny",
-        "color": "#CD1414",
-        "price": "0,74 €/kg",
-        "is_promo": true,
-        "brand": "Naturgut",
-        "raw_label": "Naturgut Bio Weizenmehl · Type 405, je 2.000 g",
-        "vs": "Lidl"
-      },
-      "savings": "0,22 €",
-      "is_30d_low": false,
-      "history_days": 19,
-      "spark": [
-        59,
-        59,
-        59,
-        59,
-        59,
-        59,
-        59,
-        59,
-        59,
-        59,
-        59,
-        74,
-        74,
-        74,
-        74,
-        74,
-        74,
-        74
-      ],
-      "spark_dates": [
-        "2026-07-13",
-        "2026-07-14",
-        "2026-07-15",
-        "2026-07-16",
-        "2026-07-17",
-        "2026-07-18",
-        "2026-07-19",
-        "2026-07-20",
-        "2026-07-21",
-        "2026-07-24",
-        "2026-07-25",
-        "2026-07-26",
-        "2026-07-27",
-        "2026-07-28",
-        "2026-07-29",
-        "2026-07-30",
-        "2026-07-31",
-        "2026-08-01"
-      ],
-      "offers": [
-        {
-          "chain": "Penny",
-          "color": "#CD1414",
-          "price": "0,74 €/kg",
-          "is_promo": true,
-          "brand": "Naturgut"
-        },
-        {
-          "chain": "Lidl",
-          "color": "#0050aa",
-          "price": "0,96 €/kg",
-          "is_promo": true,
-          "brand": "Aurora"
         }
       ]
     },
@@ -658,7 +619,7 @@
       },
       "savings": "0,00 €",
       "is_30d_low": false,
-      "history_days": 22,
+      "history_days": 24,
       "spark": [
         40,
         40,
@@ -667,6 +628,7 @@
         64,
         64,
         64,
+        56,
         56,
         56,
         56,
@@ -689,7 +651,8 @@
         "2026-07-29",
         "2026-07-30",
         "2026-07-31",
-        "2026-08-01"
+        "2026-08-01",
+        "2026-08-03"
       ],
       "offers": [
         {
@@ -702,6 +665,88 @@
       ]
     },
     {
+      "id": "haehnchen",
+      "name": "Hähnchenbrustfilet",
+      "spec": "unpaniert",
+      "emoji": "🍗",
+      "category": "Fleisch",
+      "cheapest": {
+        "chain": "Netto",
+        "color": "#C9A100",
+        "price": "14,32 €/kg",
+        "is_promo": true,
+        "brand": "Hofmaier",
+        "raw_label": "Hofmaier Hähnchenbrustfilet · hauchdünn geschnitten 125 g",
+        "vs": null
+      },
+      "savings": "0,00 €",
+      "is_30d_low": false,
+      "history_days": 21,
+      "spark": [
+        1432
+      ],
+      "spark_dates": [
+        "2026-08-03"
+      ],
+      "offers": [
+        {
+          "chain": "Netto",
+          "color": "#C9A100",
+          "price": "14,32 €/kg",
+          "is_promo": true,
+          "brand": "Hofmaier"
+        }
+      ]
+    },
+    {
+      "id": "haferdrink",
+      "name": "Haferdrink",
+      "spec": "Natur, ungesüßt",
+      "emoji": "🌾",
+      "category": "Molkerei-Alternativen",
+      "cheapest": {
+        "chain": "Lidl",
+        "color": "#0050aa",
+        "price": "1,49 €/l",
+        "is_promo": true,
+        "brand": "Alpro",
+        "raw_label": "Alpro Haferdrink · Versch. Sorten. Je 1 l",
+        "vs": null
+      },
+      "savings": "0,00 €",
+      "is_30d_low": false,
+      "history_days": 8,
+      "spark": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        149
+      ],
+      "spark_dates": [
+        "2026-07-26",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31",
+        "2026-08-01",
+        "2026-08-03"
+      ],
+      "offers": [
+        {
+          "chain": "Lidl",
+          "color": "#0050aa",
+          "price": "1,49 €/l",
+          "is_promo": true,
+          "brand": "Alpro"
+        }
+      ]
+    },
+    {
       "id": "joghurt",
       "name": "Naturjoghurt",
       "spec": "3,5 % Fett",
@@ -710,15 +755,15 @@
       "cheapest": {
         "chain": "Netto",
         "color": "#C9A100",
-        "price": "0,18 €/100 g",
+        "price": "0,16 €/100 g",
         "is_promo": true,
-        "brand": "Weihenstephan",
-        "raw_label": "Weihenstephan Naturjoghurt · 500 g gekühlt, 0,1%, 1,5% oder 3,5% Fett",
+        "brand": "Gutes Land",
+        "raw_label": "Gutes Land Naturjoghurt · gekühlt, 0,1% oder 1,5% Fett 500 g",
         "vs": null
       },
       "savings": "0,00 €",
       "is_30d_low": false,
-      "history_days": 13,
+      "history_days": 15,
       "spark": [
         16,
         16,
@@ -731,7 +776,8 @@
         18,
         18,
         18,
-        18
+        18,
+        16
       ],
       "spark_dates": [
         "2026-07-19",
@@ -745,151 +791,57 @@
         "2026-07-29",
         "2026-07-30",
         "2026-07-31",
-        "2026-08-01"
+        "2026-08-01",
+        "2026-08-03"
       ],
       "offers": [
         {
           "chain": "Netto",
           "color": "#C9A100",
-          "price": "0,18 €/100 g",
+          "price": "0,16 €/100 g",
           "is_promo": true,
-          "brand": "Weihenstephan"
+          "brand": "Gutes Land"
         }
       ]
     },
     {
-      "id": "nudeln",
-      "name": "Spaghetti",
-      "spec": "Hartweizen",
-      "emoji": "🍝",
+      "id": "mehl",
+      "name": "Weizenmehl",
+      "spec": "Type 405",
+      "emoji": "🌾",
       "category": "Basis",
       "cheapest": {
-        "chain": "Penny",
-        "color": "#CD1414",
-        "price": "0,15 €/100 g",
+        "chain": "Lidl",
+        "color": "#0050aa",
+        "price": "0,85 €/kg",
         "is_promo": true,
-        "brand": "Naturgut",
-        "raw_label": "Naturgut Bio Spaghetti XXL · Zu 100% aus Hartweizen, je 1.000 g",
+        "brand": "Belbake",
+        "raw_label": "Belbake Bio-Weizenmehl · BIOLAND  Versch. Sorten. Je 1 kg",
         "vs": null
       },
       "savings": "0,00 €",
       "is_30d_low": false,
-      "history_days": 19,
+      "history_days": 21,
       "spark": [
-        15,
-        15,
-        15,
-        15,
-        15,
-        15,
-        15
-      ],
-      "spark_dates": [
-        "2026-07-26",
-        "2026-07-27",
-        "2026-07-28",
-        "2026-07-29",
-        "2026-07-30",
-        "2026-07-31",
-        "2026-08-01"
-      ],
-      "offers": [
-        {
-          "chain": "Penny",
-          "color": "#CD1414",
-          "price": "0,15 €/100 g",
-          "is_promo": true,
-          "brand": "Naturgut"
-        }
-      ]
-    },
-    {
-      "id": "toast",
-      "name": "Toastbrot",
-      "spec": "Weizen, geschnitten",
-      "emoji": "🍞",
-      "category": "Basis",
-      "cheapest": {
-        "chain": "Kaufland",
-        "color": "#E10915",
-        "price": "0,30 €/100 g",
-        "is_promo": true,
-        "brand": "Harry Brot",
-        "raw_label": "Harry Brot Toastbrot · Butter, Vollkorn oder Balance je 500-g-Packg",
-        "vs": null
-      },
-      "savings": "0,00 €",
-      "is_30d_low": false,
-      "history_days": 8,
-      "spark": [
-        14,
-        14,
-        14,
-        14,
-        14,
-        14,
-        30,
-        30,
-        30
-      ],
-      "spark_dates": [
-        "2026-07-24",
-        "2026-07-25",
-        "2026-07-26",
-        "2026-07-27",
-        "2026-07-28",
-        "2026-07-29",
-        "2026-07-30",
-        "2026-07-31",
-        "2026-08-01"
-      ],
-      "offers": [
-        {
-          "chain": "Kaufland",
-          "color": "#E10915",
-          "price": "0,30 €/100 g",
-          "is_promo": true,
-          "brand": "Harry Brot"
-        }
-      ]
-    },
-    {
-      "id": "vollmilch",
-      "name": "Vollmilch frisch",
-      "spec": "3,5 % Fett",
-      "emoji": "🥛",
-      "category": "Molkerei",
-      "cheapest": {
-        "chain": "Penny",
-        "color": "#CD1414",
-        "price": "0,99 €/l",
-        "is_promo": true,
-        "brand": "Penny",
-        "raw_label": "Penny Zukunftsbauer Frische Vollmilch · 3,5% Fett, je 1 l",
-        "vs": null
-      },
-      "savings": "0,00 €",
-      "is_30d_low": false,
-      "history_days": 19,
-      "spark": [
-        95,
-        95,
-        95,
-        95,
-        95,
-        95,
-        95,
-        95,
-        95,
-        95,
-        95,
-        99,
-        99,
-        99,
-        99,
-        99,
-        99,
-        99
+        59,
+        59,
+        59,
+        59,
+        59,
+        59,
+        59,
+        59,
+        59,
+        59,
+        59,
+        74,
+        74,
+        74,
+        74,
+        74,
+        74,
+        74,
+        85
       ],
       "spark_dates": [
         "2026-07-13",
@@ -909,113 +861,104 @@
         "2026-07-29",
         "2026-07-30",
         "2026-07-31",
-        "2026-08-01"
+        "2026-08-01",
+        "2026-08-03"
       ],
       "offers": [
         {
-          "chain": "Penny",
-          "color": "#CD1414",
-          "price": "0,99 €/l",
+          "chain": "Lidl",
+          "color": "#0050aa",
+          "price": "0,85 €/kg",
           "is_promo": true,
-          "brand": "Penny"
+          "brand": "Belbake"
         }
       ]
     },
     {
-      "id": "zucker",
-      "name": "Zucker",
-      "spec": "Raffinade",
-      "emoji": "🧂",
-      "category": "Basis",
+      "id": "quark",
+      "name": "Speisequark",
+      "spec": "Magerstufe",
+      "emoji": "🥣",
+      "category": "Molkerei",
       "cheapest": {
-        "chain": "Lidl",
-        "color": "#0050aa",
-        "price": "0,84 €/kg",
+        "chain": "Kaufland",
+        "color": "#E10915",
+        "price": "0,32 €/100 g",
         "is_promo": true,
-        "brand": "Diamant",
-        "raw_label": "Diamant Zucker XXL · Je 2 kg",
+        "brand": "K-Bio",
+        "raw_label": "K-Bio Speisequark · 250g",
         "vs": null
       },
       "savings": "0,00 €",
       "is_30d_low": false,
-      "history_days": 19,
+      "history_days": 21,
       "spark": [
-        84,
-        84,
-        84,
-        84,
-        84,
-        84,
-        84,
-        84,
-        84,
-        84,
-        84,
-        84
+        40,
+        40,
+        40,
+        40,
+        32,
+        32,
+        32,
+        32
       ],
       "spark_dates": [
-        "2026-07-19",
-        "2026-07-20",
-        "2026-07-21",
-        "2026-07-24",
-        "2026-07-25",
         "2026-07-26",
         "2026-07-27",
         "2026-07-28",
         "2026-07-29",
         "2026-07-30",
         "2026-07-31",
-        "2026-08-01"
+        "2026-08-01",
+        "2026-08-03"
       ],
       "offers": [
         {
-          "chain": "Lidl",
-          "color": "#0050aa",
-          "price": "0,84 €/kg",
+          "chain": "Kaufland",
+          "color": "#E10915",
+          "price": "0,32 €/100 g",
           "is_promo": true,
-          "brand": "Diamant"
+          "brand": "K-Bio"
         }
       ]
     },
     {
-      "id": "zwiebeln",
-      "name": "Zwiebeln",
-      "spec": "gelb, 2 kg Netz",
-      "emoji": "🧅",
-      "category": "Gemüse",
+      "id": "reis",
+      "name": "Reis",
+      "spec": "Parboiled Langkorn",
+      "emoji": "🍚",
+      "category": "Basis",
       "cheapest": {
-        "chain": "Netto",
-        "color": "#C9A100",
-        "price": "1,00 €/kg",
+        "chain": "Lidl",
+        "color": "#0050aa",
+        "price": "2,38 €/kg",
         "is_promo": true,
-        "brand": "Heimat",
-        "raw_label": "Heimat Zwiebeln XXL · 3 kg Sack Deutschland, Kl. II",
+        "brand": "Golden Sun",
+        "raw_label": "Golden Sun Bio Reis · Versch. Sorte Je 500 g",
         "vs": null
       },
       "savings": "0,00 €",
       "is_30d_low": false,
-      "history_days": 22,
+      "history_days": 21,
       "spark": [
-        99,
-        99,
-        99,
-        99,
-        99,
-        99,
-        99,
-        106,
-        106,
-        100,
-        100,
-        100,
-        100,
-        100,
-        100,
-        100
+        159,
+        159,
+        159,
+        159,
+        159,
+        159,
+        159,
+        159,
+        159,
+        159,
+        159,
+        238
       ],
       "spark_dates": [
-        "2026-07-10",
-        "2026-07-11",
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
         "2026-07-17",
         "2026-07-18",
         "2026-07-19",
@@ -1023,21 +966,49 @@
         "2026-07-21",
         "2026-07-24",
         "2026-07-25",
-        "2026-07-26",
-        "2026-07-27",
-        "2026-07-28",
-        "2026-07-29",
-        "2026-07-30",
-        "2026-07-31",
-        "2026-08-01"
+        "2026-08-03"
       ],
       "offers": [
         {
-          "chain": "Netto",
-          "color": "#C9A100",
-          "price": "1,00 €/kg",
+          "chain": "Lidl",
+          "color": "#0050aa",
+          "price": "2,38 €/kg",
           "is_promo": true,
-          "brand": "Heimat"
+          "brand": "Golden Sun"
+        }
+      ]
+    },
+    {
+      "id": "sonnenblumenoel",
+      "name": "Sonnenblumenöl",
+      "spec": "raffiniert",
+      "emoji": "🌻",
+      "category": "Basis",
+      "cheapest": {
+        "chain": "Penny",
+        "color": "#CD1414",
+        "price": "2,39 €/l",
+        "is_promo": true,
+        "brand": "Solvel",
+        "raw_label": "Solvel Reines Sonnenblumenöl · HINWEIS: MIT PENNY APP je 750 ml",
+        "vs": null
+      },
+      "savings": "0,00 €",
+      "is_30d_low": false,
+      "history_days": 21,
+      "spark": [
+        239
+      ],
+      "spark_dates": [
+        "2026-08-03"
+      ],
+      "offers": [
+        {
+          "chain": "Penny",
+          "color": "#CD1414",
+          "price": "2,39 €/l",
+          "is_promo": true,
+          "brand": "Solvel"
         }
       ]
     }
