@@ -2,10 +2,10 @@
   "brand": "Pfennigfuchser Dresden",
   "claim": "Jeden Tag. Jeder Pfennig.",
   "date": "2026-08-07",
-  "generated_at": "2026-08-07T06:55:13+00:00",
+  "generated_at": "2026-08-07T08:17:59+00:00",
   "basket_savings": "7,16 €",
   "n_products": 13,
-  "fun_fact": "Kaffee gemahlen ist heute so günstig wie seit 30 Tagen nicht.",
+  "fun_fact": "13 der 13 Tagessieger sind heute Aktionspreise.",
   "is_demo": false,
   "sources": [
     "marktguru"
@@ -27,7 +27,7 @@
         "vs": "Penny"
       },
       "savings": "2,51 €",
-      "is_30d_low": true,
+      "is_30d_low": false,
       "history_days": 28,
       "spark": [
         90,
@@ -130,7 +130,7 @@
         "vs": "Lidl"
       },
       "savings": "2,05 €",
-      "is_30d_low": true,
+      "is_30d_low": false,
       "history_days": 28,
       "spark": [
         99,
@@ -218,7 +218,7 @@
         "vs": "Rewe"
       },
       "savings": "1,59 €",
-      "is_30d_low": true,
+      "is_30d_low": false,
       "history_days": 28,
       "spark": [
         90,
