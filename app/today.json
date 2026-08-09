@@ -2,10 +2,10 @@
   "brand": "Pfennigfuchser Dresden",
   "claim": "Jeden Tag. Jeder Pfennig.",
   "date": "2026-08-09",
-  "generated_at": "2026-08-09T10:38:56+00:00",
+  "generated_at": "2026-08-09T10:39:49+00:00",
   "basket_savings": "6,41 €",
-  "n_products": 15,
-  "fun_fact": "Naturjoghurt ist heute so günstig wie noch nie seit Messbeginn vor 21 Tagen.",
+  "n_products": 14,
+  "fun_fact": "Speisequark ist heute so günstig wie noch nie seit Messbeginn vor 27 Tagen.",
   "is_demo": false,
   "sources": [
     "marktguru"
@@ -717,74 +717,6 @@
           "price": "0,65 €/l",
           "is_promo": true,
           "brand": "Gutes Land"
-        }
-      ]
-    },
-    {
-      "id": "joghurt",
-      "name": "Naturjoghurt",
-      "spec": "3,5 % Fett",
-      "emoji": "🥣",
-      "category": "Molkerei",
-      "cheapest": {
-        "chain": "Penny",
-        "color": "#CD1414",
-        "price": "0,12 €/100 g",
-        "is_promo": true,
-        "brand": "Milprima",
-        "raw_label": "Milprima Naturjoghurt · HINWEIS: MIT PENNY APP Versch. Sorten, je 500 g",
-        "vs": null
-      },
-      "savings": "0,00 €",
-      "is_30d_low": false,
-      "history_days": 21,
-      "spark": [
-        16,
-        16,
-        16,
-        16,
-        16,
-        18,
-        18,
-        18,
-        18,
-        18,
-        18,
-        18,
-        16,
-        16,
-        16,
-        16,
-        16,
-        12
-      ],
-      "spark_dates": [
-        "2026-07-19",
-        "2026-07-20",
-        "2026-07-21",
-        "2026-07-24",
-        "2026-07-25",
-        "2026-07-26",
-        "2026-07-27",
-        "2026-07-28",
-        "2026-07-29",
-        "2026-07-30",
-        "2026-07-31",
-        "2026-08-01",
-        "2026-08-03",
-        "2026-08-04",
-        "2026-08-05",
-        "2026-08-06",
-        "2026-08-07",
-        "2026-08-09"
-      ],
-      "offers": [
-        {
-          "chain": "Penny",
-          "color": "#CD1414",
-          "price": "0,12 €/100 g",
-          "is_promo": true,
-          "brand": "Milprima"
         }
       ]
     },
