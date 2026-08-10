@@ -1,11 +1,11 @@
 {
   "brand": "Pfennigfuchser Dresden",
   "claim": "Jeden Tag. Jeder Pfennig.",
-  "date": "2026-08-09",
-  "generated_at": "2026-08-09T10:39:49+00:00",
-  "basket_savings": "6,41 €",
-  "n_products": 14,
-  "fun_fact": "Speisequark ist heute so günstig wie noch nie seit Messbeginn vor 27 Tagen.",
+  "date": "2026-08-10",
+  "generated_at": "2026-08-10T06:58:29+00:00",
+  "basket_savings": "6,35 €",
+  "n_products": 9,
+  "fun_fact": "9 der 9 Tagessieger sind heute Aktionspreise.",
   "is_demo": false,
   "sources": [
     "marktguru"
@@ -28,7 +28,7 @@
       },
       "savings": "3,09 €",
       "is_30d_low": false,
-      "history_days": 30,
+      "history_days": 31,
       "spark": [
         90,
         90,
@@ -43,6 +43,7 @@
         100,
         100,
         100,
+        90,
         90,
         90,
         90,
@@ -83,7 +84,8 @@
         "2026-08-05",
         "2026-08-06",
         "2026-08-07",
-        "2026-08-09"
+        "2026-08-09",
+        "2026-08-10"
       ],
       "offers": [
         {
@@ -133,7 +135,7 @@
       },
       "savings": "1,70 €",
       "is_30d_low": false,
-      "history_days": 30,
+      "history_days": 31,
       "spark": [
         90,
         90,
@@ -160,6 +162,7 @@
         90,
         90,
         90,
+        96,
         96
       ],
       "spark_dates": [
@@ -188,7 +191,8 @@
         "2026-08-05",
         "2026-08-06",
         "2026-08-07",
-        "2026-08-09"
+        "2026-08-09",
+        "2026-08-10"
       ],
       "offers": [
         {
@@ -231,7 +235,7 @@
       },
       "savings": "0,80 €",
       "is_30d_low": false,
-      "history_days": 29,
+      "history_days": 30,
       "spark": [
         99,
         99,
@@ -255,6 +259,7 @@
         179,
         179,
         179,
+        99,
         99,
         99,
         99
@@ -284,7 +289,8 @@
         "2026-08-05",
         "2026-08-06",
         "2026-08-07",
-        "2026-08-09"
+        "2026-08-09",
+        "2026-08-10"
       ],
       "offers": [
         {
@@ -320,7 +326,7 @@
       },
       "savings": "0,40 €",
       "is_30d_low": false,
-      "history_days": 30,
+      "history_days": 31,
       "spark": [
         40,
         40,
@@ -341,6 +347,7 @@
         56,
         56,
         56,
+        40,
         40
       ],
       "spark_dates": [
@@ -363,7 +370,8 @@
         "2026-08-05",
         "2026-08-06",
         "2026-08-07",
-        "2026-08-09"
+        "2026-08-09",
+        "2026-08-10"
       ],
       "offers": [
         {
@@ -383,23 +391,112 @@
       ]
     },
     {
+      "id": "mehl",
+      "name": "Weizenmehl",
+      "spec": "Type 405",
+      "emoji": "🌾",
+      "category": "Basis",
+      "cheapest": {
+        "chain": "Penny",
+        "color": "#CD1414",
+        "price": "0,65 €/kg",
+        "is_promo": true,
+        "brand": null,
+        "raw_label": "Ähre Weizenmehl · Type 405, je 2 kg",
+        "vs": "Lidl"
+      },
+      "savings": "0,20 €",
+      "is_30d_low": false,
+      "history_days": 28,
+      "spark": [
+        59,
+        59,
+        59,
+        59,
+        59,
+        59,
+        59,
+        59,
+        59,
+        59,
+        59,
+        74,
+        74,
+        74,
+        74,
+        74,
+        74,
+        74,
+        85,
+        85,
+        85,
+        85,
+        85,
+        65,
+        65
+      ],
+      "spark_dates": [
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17",
+        "2026-07-18",
+        "2026-07-19",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-24",
+        "2026-07-25",
+        "2026-07-26",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31",
+        "2026-08-01",
+        "2026-08-03",
+        "2026-08-04",
+        "2026-08-05",
+        "2026-08-06",
+        "2026-08-07",
+        "2026-08-09",
+        "2026-08-10"
+      ],
+      "offers": [
+        {
+          "chain": "Penny",
+          "color": "#CD1414",
+          "price": "0,65 €/kg",
+          "is_promo": true,
+          "brand": null
+        },
+        {
+          "chain": "Lidl",
+          "color": "#0050aa",
+          "price": "0,85 €/kg",
+          "is_promo": true,
+          "brand": "Belbake"
+        }
+      ]
+    },
+    {
       "id": "kartoffeln",
       "name": "Kartoffeln",
       "spec": "festkochend, 2,5 kg",
       "emoji": "🥔",
       "category": "Gemüse",
       "cheapest": {
-        "chain": "Netto",
-        "color": "#C9A100",
-        "price": "0,93 €/kg",
+        "chain": "Kaufland",
+        "color": "#E10915",
+        "price": "0,99 €/kg",
         "is_promo": true,
-        "brand": "Heimat",
-        "raw_label": "Heimat Speisekartoffeln · Deutschland 7,5 kg Sack Zwiebeln Deutschland, Kl. II 1,5 kg",
+        "brand": "Pfälzer Grumbeere",
+        "raw_label": "Pfälzer Grumbeere Speisefrühkartoffeln Pellissimo · Dtsch. vorwiegend festkochend oder festkochend, Sorte laut A",
         "vs": "Lidl"
       },
-      "savings": "0,22 €",
+      "savings": "0,16 €",
       "is_30d_low": false,
-      "history_days": 30,
+      "history_days": 31,
       "spark": [
         96,
         96,
@@ -426,7 +523,8 @@
         99,
         99,
         99,
-        93
+        99,
+        99
       ],
       "spark_dates": [
         "2026-07-10",
@@ -454,16 +552,10 @@
         "2026-08-05",
         "2026-08-06",
         "2026-08-07",
-        "2026-08-09"
+        "2026-08-09",
+        "2026-08-10"
       ],
       "offers": [
-        {
-          "chain": "Netto",
-          "color": "#C9A100",
-          "price": "0,93 €/kg",
-          "is_promo": true,
-          "brand": "Heimat"
-        },
         {
           "chain": "Kaufland",
           "color": "#E10915",
@@ -488,143 +580,6 @@
       ]
     },
     {
-      "id": "mehl",
-      "name": "Weizenmehl",
-      "spec": "Type 405",
-      "emoji": "🌾",
-      "category": "Basis",
-      "cheapest": {
-        "chain": "Penny",
-        "color": "#CD1414",
-        "price": "0,65 €/kg",
-        "is_promo": true,
-        "brand": null,
-        "raw_label": "Ähre Weizenmehl · Type 405, je 2 kg",
-        "vs": "Lidl"
-      },
-      "savings": "0,20 €",
-      "is_30d_low": false,
-      "history_days": 27,
-      "spark": [
-        59,
-        59,
-        59,
-        59,
-        59,
-        59,
-        59,
-        59,
-        59,
-        59,
-        59,
-        74,
-        74,
-        74,
-        74,
-        74,
-        74,
-        74,
-        85,
-        85,
-        85,
-        85,
-        85,
-        65
-      ],
-      "spark_dates": [
-        "2026-07-13",
-        "2026-07-14",
-        "2026-07-15",
-        "2026-07-16",
-        "2026-07-17",
-        "2026-07-18",
-        "2026-07-19",
-        "2026-07-20",
-        "2026-07-21",
-        "2026-07-24",
-        "2026-07-25",
-        "2026-07-26",
-        "2026-07-27",
-        "2026-07-28",
-        "2026-07-29",
-        "2026-07-30",
-        "2026-07-31",
-        "2026-08-01",
-        "2026-08-03",
-        "2026-08-04",
-        "2026-08-05",
-        "2026-08-06",
-        "2026-08-07",
-        "2026-08-09"
-      ],
-      "offers": [
-        {
-          "chain": "Penny",
-          "color": "#CD1414",
-          "price": "0,65 €/kg",
-          "is_promo": true,
-          "brand": null
-        },
-        {
-          "chain": "Lidl",
-          "color": "#0050aa",
-          "price": "0,85 €/kg",
-          "is_promo": true,
-          "brand": "Belbake"
-        }
-      ]
-    },
-    {
-      "id": "eier",
-      "name": "Eier",
-      "spec": "10 St., Gr. M, Bodenh.",
-      "emoji": "🥚",
-      "category": "Basis",
-      "cheapest": {
-        "chain": "Kaufland",
-        "color": "#E10915",
-        "price": "2,50 €/10 St.",
-        "is_promo": true,
-        "brand": "K-Classic",
-        "raw_label": "K-Classic Frische Eier · aus Freilandhaltung aus Freilandhaltung, HKL A je 12-St.-Pac",
-        "vs": null
-      },
-      "savings": "0,00 €",
-      "is_30d_low": false,
-      "history_days": 16,
-      "spark": [
-        320,
-        320,
-        320,
-        320,
-        320,
-        320,
-        250,
-        250,
-        250
-      ],
-      "spark_dates": [
-        "2026-07-24",
-        "2026-07-25",
-        "2026-07-26",
-        "2026-07-27",
-        "2026-07-28",
-        "2026-07-29",
-        "2026-08-06",
-        "2026-08-07",
-        "2026-08-09"
-      ],
-      "offers": [
-        {
-          "chain": "Kaufland",
-          "color": "#E10915",
-          "price": "2,50 €/10 St.",
-          "is_promo": true,
-          "brand": "K-Classic"
-        }
-      ]
-    },
-    {
       "id": "haferdrink",
       "name": "Haferdrink",
       "spec": "Natur, ungesüßt",
@@ -641,7 +596,7 @@
       },
       "savings": "0,00 €",
       "is_30d_low": false,
-      "history_days": 14,
+      "history_days": 15,
       "spark": [
         90,
         90,
@@ -650,6 +605,7 @@
         90,
         90,
         90,
+        149,
         149,
         149,
         149,
@@ -670,7 +626,8 @@
         "2026-08-05",
         "2026-08-06",
         "2026-08-07",
-        "2026-08-09"
+        "2026-08-09",
+        "2026-08-10"
       ],
       "offers": [
         {
@@ -679,44 +636,6 @@
           "price": "1,49 €/l",
           "is_promo": true,
           "brand": "Alpro"
-        }
-      ]
-    },
-    {
-      "id": "hmilch",
-      "name": "H-Milch fettarm",
-      "spec": "1,5 % Fett",
-      "emoji": "🥛",
-      "category": "Molkerei",
-      "cheapest": {
-        "chain": "Netto",
-        "color": "#C9A100",
-        "price": "0,65 €/l",
-        "is_promo": true,
-        "brand": "Gutes Land",
-        "raw_label": "Gutes Land Fettarme H-Milch · 1,5% Fett 12 x 1 Liter Einzelpreis: 0.85",
-        "vs": null
-      },
-      "savings": "0,00 €",
-      "is_30d_low": false,
-      "history_days": 30,
-      "spark": [
-        67,
-        67,
-        65
-      ],
-      "spark_dates": [
-        "2026-07-10",
-        "2026-07-11",
-        "2026-08-09"
-      ],
-      "offers": [
-        {
-          "chain": "Netto",
-          "color": "#C9A100",
-          "price": "0,65 €/l",
-          "is_promo": true,
-          "brand": "Gutes Land"
         }
       ]
     },
@@ -737,7 +656,7 @@
       },
       "savings": "0,00 €",
       "is_30d_low": false,
-      "history_days": 27,
+      "history_days": 28,
       "spark": [
         40,
         40,
@@ -749,6 +668,7 @@
         32,
         32,
         32,
+        24,
         24
       ],
       "spark_dates": [
@@ -762,7 +682,8 @@
         "2026-08-03",
         "2026-08-04",
         "2026-08-05",
-        "2026-08-09"
+        "2026-08-09",
+        "2026-08-10"
       ],
       "offers": [
         {
@@ -771,106 +692,6 @@
           "price": "0,24 €/100 g",
           "is_promo": true,
           "brand": "Vogtlandweide"
-        }
-      ]
-    },
-    {
-      "id": "reis",
-      "name": "Reis",
-      "spec": "Parboiled Langkorn",
-      "emoji": "🍚",
-      "category": "Basis",
-      "cheapest": {
-        "chain": "Lidl",
-        "color": "#0050aa",
-        "price": "1,80 €/kg",
-        "is_promo": true,
-        "brand": "Vitasia",
-        "raw_label": "Vitasia Jasmin-Reis · Je 5 kg",
-        "vs": null
-      },
-      "savings": "0,00 €",
-      "is_30d_low": false,
-      "history_days": 27,
-      "spark": [
-        159,
-        159,
-        159,
-        159,
-        159,
-        159,
-        159,
-        159,
-        159,
-        159,
-        159,
-        238,
-        238,
-        238,
-        238,
-        238,
-        180
-      ],
-      "spark_dates": [
-        "2026-07-13",
-        "2026-07-14",
-        "2026-07-15",
-        "2026-07-16",
-        "2026-07-17",
-        "2026-07-18",
-        "2026-07-19",
-        "2026-07-20",
-        "2026-07-21",
-        "2026-07-24",
-        "2026-07-25",
-        "2026-08-03",
-        "2026-08-04",
-        "2026-08-05",
-        "2026-08-06",
-        "2026-08-07",
-        "2026-08-09"
-      ],
-      "offers": [
-        {
-          "chain": "Lidl",
-          "color": "#0050aa",
-          "price": "1,80 €/kg",
-          "is_promo": true,
-          "brand": "Vitasia"
-        }
-      ]
-    },
-    {
-      "id": "sonnenblumenoel",
-      "name": "Sonnenblumenöl",
-      "spec": "raffiniert",
-      "emoji": "🌻",
-      "category": "Basis",
-      "cheapest": {
-        "chain": "Lidl",
-        "color": "#0050aa",
-        "price": "2,90 €/l",
-        "is_promo": true,
-        "brand": "Vita D'or",
-        "raw_label": "Vita D'or Bio Sonnenblumenöl · Kaltgepresst. Je 0,5 l",
-        "vs": null
-      },
-      "savings": "0,00 €",
-      "is_30d_low": false,
-      "history_days": 27,
-      "spark": [
-        290
-      ],
-      "spark_dates": [
-        "2026-08-09"
-      ],
-      "offers": [
-        {
-          "chain": "Lidl",
-          "color": "#0050aa",
-          "price": "2,90 €/l",
-          "is_promo": true,
-          "brand": "Vita D'or"
         }
       ]
     },
@@ -891,7 +712,7 @@
       },
       "savings": "0,00 €",
       "is_30d_low": false,
-      "history_days": 16,
+      "history_days": 17,
       "spark": [
         14,
         14,
@@ -902,6 +723,7 @@
         30,
         30,
         30,
+        20,
         20,
         20,
         20,
@@ -924,7 +746,8 @@
         "2026-08-05",
         "2026-08-06",
         "2026-08-07",
-        "2026-08-09"
+        "2026-08-09",
+        "2026-08-10"
       ],
       "offers": [
         {
@@ -933,82 +756,6 @@
           "price": "0,20 €/100 g",
           "is_promo": true,
           "brand": "Golden Toast"
-        }
-      ]
-    },
-    {
-      "id": "zwiebeln",
-      "name": "Zwiebeln",
-      "spec": "gelb, 2 kg Netz",
-      "emoji": "🧅",
-      "category": "Gemüse",
-      "cheapest": {
-        "chain": "Kaufland",
-        "color": "#E10915",
-        "price": "1,99 €/kg",
-        "is_promo": true,
-        "brand": "K-Bio",
-        "raw_label": "K-Bio Bio-Zwiebeln · Bioland dtsch. KI. I je 1-kg-Netz",
-        "vs": null
-      },
-      "savings": "0,00 €",
-      "is_30d_low": false,
-      "history_days": 30,
-      "spark": [
-        99,
-        99,
-        99,
-        99,
-        99,
-        99,
-        99,
-        106,
-        106,
-        100,
-        100,
-        100,
-        100,
-        100,
-        100,
-        100,
-        94,
-        94,
-        94,
-        94,
-        94,
-        199
-      ],
-      "spark_dates": [
-        "2026-07-10",
-        "2026-07-11",
-        "2026-07-17",
-        "2026-07-18",
-        "2026-07-19",
-        "2026-07-20",
-        "2026-07-21",
-        "2026-07-24",
-        "2026-07-25",
-        "2026-07-26",
-        "2026-07-27",
-        "2026-07-28",
-        "2026-07-29",
-        "2026-07-30",
-        "2026-07-31",
-        "2026-08-01",
-        "2026-08-03",
-        "2026-08-04",
-        "2026-08-05",
-        "2026-08-06",
-        "2026-08-07",
-        "2026-08-09"
-      ],
-      "offers": [
-        {
-          "chain": "Kaufland",
-          "color": "#E10915",
-          "price": "1,99 €/kg",
-          "is_promo": true,
-          "brand": "K-Bio"
         }
       ]
     }
