@@ -2,9 +2,12 @@
   "brand": "Pfennigfuchser Dresden",
   "claim": "Jeden Tag. Jeder Pfennig.",
   "date": "2026-08-18",
-  "generated_at": "2026-08-18T12:16:14+00:00",
+  "generated_at": "2026-08-18T12:18:22+00:00",
   "basket_savings": "8,09 €",
   "n_products": 11,
+  "sum_pack_cheap": "26,96 €",
+  "sum_pack_dear": "37,89 €",
+  "bon_nr": 34,
   "fun_fact": "Lidl holt heute 6 von 11 Tagessiegen.",
   "is_demo": false,
   "sources": [
