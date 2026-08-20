@@ -1,14 +1,14 @@
 {
   "brand": "Pfennigfuchser Dresden",
   "claim": "Jeden Tag. Jeder Pfennig.",
-  "date": "2026-08-19",
-  "generated_at": "2026-08-19T06:49:33+00:00",
-  "basket_savings": "8,09 €",
-  "n_products": 11,
-  "sum_pack_cheap": "26,96 €",
-  "sum_pack_dear": "37,89 €",
-  "bon_nr": 35,
-  "fun_fact": "11 der 11 Tagessieger sind heute Aktionspreise.",
+  "date": "2026-08-20",
+  "generated_at": "2026-08-20T08:08:06+00:00",
+  "basket_savings": "7,79 €",
+  "n_products": 12,
+  "sum_pack_cheap": "30,15 €",
+  "sum_pack_dear": "40,30 €",
+  "bon_nr": 36,
+  "fun_fact": "12 der 12 Tagessieger sind heute Aktionspreise.",
   "is_demo": false,
   "sources": [
     "marktguru"
@@ -31,9 +31,8 @@
       },
       "savings": "3,07 €",
       "is_30d_low": false,
-      "history_days": 40,
+      "history_days": 41,
       "spark": [
-        583,
         583,
         583,
         583,
@@ -62,10 +61,10 @@
         583,
         583,
         583,
+        583,
         583
       ],
       "spark_dates": [
-        "2026-07-14",
         "2026-07-15",
         "2026-07-16",
         "2026-07-17",
@@ -94,7 +93,8 @@
         "2026-08-16",
         "2026-08-17",
         "2026-08-18",
-        "2026-08-19"
+        "2026-08-19",
+        "2026-08-20"
       ],
       "offers": [
         {
@@ -137,7 +137,7 @@
       },
       "savings": "2,99 €",
       "is_30d_low": false,
-      "history_days": 40,
+      "history_days": 41,
       "spark": [
         40,
         40,
@@ -164,6 +164,7 @@
         40,
         40,
         56,
+        40,
         40,
         40,
         40,
@@ -198,7 +199,8 @@
         "2026-08-16",
         "2026-08-17",
         "2026-08-18",
-        "2026-08-19"
+        "2026-08-19",
+        "2026-08-20"
       ],
       "offers": [
         {
@@ -216,18 +218,18 @@
           "brand": "Milbona"
         },
         {
+          "chain": "Kaufland",
+          "color": "#E10915",
+          "price": "0,48 €/100 g",
+          "is_promo": true,
+          "brand": "Meggle"
+        },
+        {
           "chain": "Penny",
           "color": "#CD1414",
           "price": "0,52 €/100 g",
           "is_promo": true,
           "brand": "Vogtlandweide"
-        },
-        {
-          "chain": "Kaufland",
-          "color": "#E10915",
-          "price": "1,00 €/100 g",
-          "is_promo": true,
-          "brand": "Président"
         },
         {
           "chain": "Rewe",
@@ -245,19 +247,18 @@
       "emoji": "🍎",
       "category": "Obst",
       "cheapest": {
-        "chain": "Lidl",
-        "color": "#0050aa",
-        "price": "1,09 €/kg",
+        "chain": "Kaufland",
+        "color": "#E10915",
+        "price": "0,99 €/kg",
         "is_promo": true,
         "brand": null,
-        "raw_label": "Rote Äpfel · Deutsche Süß-säuerlich. Klasse I Je 2 kg",
+        "raw_label": "Tafelapfel · Dtsch./ital.  Kl. I je 2-kg-Beutel",
         "vs": "Penny"
       },
-      "savings": "1,40 €",
+      "savings": "1,50 €",
       "is_30d_low": false,
-      "history_days": 40,
+      "history_days": 41,
       "spark": [
-        125,
         99,
         99,
         100,
@@ -286,10 +287,10 @@
         129,
         109,
         109,
-        109
+        109,
+        99
       ],
       "spark_dates": [
-        "2026-07-16",
         "2026-07-17",
         "2026-07-18",
         "2026-07-19",
@@ -318,9 +319,17 @@
         "2026-08-16",
         "2026-08-17",
         "2026-08-18",
-        "2026-08-19"
+        "2026-08-19",
+        "2026-08-20"
       ],
       "offers": [
+        {
+          "chain": "Kaufland",
+          "color": "#E10915",
+          "price": "0,99 €/kg",
+          "is_promo": true,
+          "brand": null
+        },
         {
           "chain": "Lidl",
           "color": "#0050aa",
@@ -329,124 +338,11 @@
           "brand": null
         },
         {
-          "chain": "Kaufland",
-          "color": "#E10915",
-          "price": "1,29 €/kg",
-          "is_promo": true,
-          "brand": null
-        },
-        {
-          "chain": "Netto",
-          "color": "#C9A100",
-          "price": "2,19 €/kg",
-          "is_promo": true,
-          "brand": "Pink Lady"
-        },
-        {
           "chain": "Penny",
           "color": "#CD1414",
           "price": "2,49 €/kg",
           "is_promo": true,
           "brand": "Pink Lady"
-        }
-      ]
-    },
-    {
-      "id": "kartoffeln",
-      "name": "Kartoffeln",
-      "spec": "festkochend, 2,5 kg",
-      "emoji": "🥔",
-      "category": "Gemüse",
-      "cheapest": {
-        "chain": "Rewe",
-        "color": "#cc0000",
-        "price": "0,80 €/kg",
-        "is_promo": true,
-        "brand": null,
-        "raw_label": "Gourmet-Speisekartoffeln · Sorte und Kocheigenschaft: siehe Etikett, Qualität I, je 2,5",
-        "vs": "Kaufland"
-      },
-      "savings": "0,40 €",
-      "is_30d_low": false,
-      "history_days": 40,
-      "spark": [
-        100,
-        100,
-        100,
-        80,
-        80,
-        80,
-        80,
-        80,
-        100,
-        100,
-        100,
-        100,
-        100,
-        100,
-        100,
-        99,
-        99,
-        99,
-        99,
-        99,
-        99,
-        99,
-        99,
-        99,
-        99,
-        99,
-        120,
-        120,
-        80,
-        80
-      ],
-      "spark_dates": [
-        "2026-07-16",
-        "2026-07-17",
-        "2026-07-18",
-        "2026-07-19",
-        "2026-07-20",
-        "2026-07-21",
-        "2026-07-24",
-        "2026-07-25",
-        "2026-07-26",
-        "2026-07-27",
-        "2026-07-28",
-        "2026-07-29",
-        "2026-07-30",
-        "2026-07-31",
-        "2026-08-01",
-        "2026-08-03",
-        "2026-08-04",
-        "2026-08-05",
-        "2026-08-06",
-        "2026-08-07",
-        "2026-08-09",
-        "2026-08-10",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14",
-        "2026-08-15",
-        "2026-08-16",
-        "2026-08-17",
-        "2026-08-18",
-        "2026-08-19"
-      ],
-      "offers": [
-        {
-          "chain": "Rewe",
-          "color": "#cc0000",
-          "price": "0,80 €/kg",
-          "is_promo": true,
-          "brand": null
-        },
-        {
-          "chain": "Kaufland",
-          "color": "#E10915",
-          "price": "1,20 €/kg",
-          "is_promo": true,
-          "brand": "Markt Frisch"
         }
       ]
     },
@@ -467,9 +363,8 @@
       },
       "savings": "0,23 €",
       "is_30d_low": false,
-      "history_days": 37,
+      "history_days": 38,
       "spark": [
-        59,
         59,
         59,
         59,
@@ -498,10 +393,10 @@
         88,
         65,
         65,
+        65,
         65
       ],
       "spark_dates": [
-        "2026-07-16",
         "2026-07-17",
         "2026-07-18",
         "2026-07-19",
@@ -530,7 +425,8 @@
         "2026-08-16",
         "2026-08-17",
         "2026-08-18",
-        "2026-08-19"
+        "2026-08-19",
+        "2026-08-20"
       ],
       "offers": [
         {
@@ -546,6 +442,144 @@
           "price": "0,88 €/kg",
           "is_promo": true,
           "brand": "Kathi"
+        }
+      ]
+    },
+    {
+      "id": "bananen",
+      "name": "Bananen",
+      "spec": "lose",
+      "emoji": "🍌",
+      "category": "Obst",
+      "cheapest": {
+        "chain": "Kaufland",
+        "color": "#E10915",
+        "price": "1,99 €/kg",
+        "is_promo": true,
+        "brand": null,
+        "raw_label": "Bananen · Demeter dominik./ecuador.  lose je kg",
+        "vs": null
+      },
+      "savings": "0,00 €",
+      "is_30d_low": false,
+      "history_days": 40,
+      "spark": [
+        99,
+        99,
+        99,
+        99,
+        99,
+        99,
+        169,
+        169,
+        169,
+        169,
+        179,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        179,
+        179,
+        179,
+        99,
+        99,
+        99,
+        99,
+        99,
+        179,
+        179,
+        179,
+        199
+      ],
+      "spark_dates": [
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17",
+        "2026-07-18",
+        "2026-07-19",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-24",
+        "2026-07-25",
+        "2026-07-26",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31",
+        "2026-08-01",
+        "2026-08-03",
+        "2026-08-04",
+        "2026-08-05",
+        "2026-08-06",
+        "2026-08-07",
+        "2026-08-09",
+        "2026-08-10",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14",
+        "2026-08-15",
+        "2026-08-20"
+      ],
+      "offers": [
+        {
+          "chain": "Kaufland",
+          "color": "#E10915",
+          "price": "1,99 €/kg",
+          "is_promo": true,
+          "brand": null
+        }
+      ]
+    },
+    {
+      "id": "eier",
+      "name": "Eier",
+      "spec": "10 St., Gr. M, Bodenh.",
+      "emoji": "🥚",
+      "category": "Basis",
+      "cheapest": {
+        "chain": "Kaufland",
+        "color": "#E10915",
+        "price": "3,20 €/10 St.",
+        "is_promo": true,
+        "brand": "Großenhainer Geflügelhof",
+        "raw_label": "Großenhainer Geflügelhof Eier · aus Bodenhaltung, HKL A, Größe M/L je 10-St.-Packg.",
+        "vs": null
+      },
+      "savings": "0,00 €",
+      "is_30d_low": false,
+      "history_days": 27,
+      "spark": [
+        320,
+        320,
+        320,
+        320,
+        320,
+        320,
+        320
+      ],
+      "spark_dates": [
+        "2026-07-24",
+        "2026-07-25",
+        "2026-07-26",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-08-20"
+      ],
+      "offers": [
+        {
+          "chain": "Kaufland",
+          "color": "#E10915",
+          "price": "3,20 €/10 St.",
+          "is_promo": true,
+          "brand": "Großenhainer Geflügelhof"
         }
       ]
     },
@@ -566,7 +600,7 @@
       },
       "savings": "0,00 €",
       "is_30d_low": false,
-      "history_days": 24,
+      "history_days": 25,
       "spark": [
         90,
         90,
@@ -586,6 +620,7 @@
         149,
         149,
         149,
+        90,
         90,
         90,
         90,
@@ -613,7 +648,8 @@
         "2026-08-16",
         "2026-08-17",
         "2026-08-18",
-        "2026-08-19"
+        "2026-08-19",
+        "2026-08-20"
       ],
       "offers": [
         {
@@ -642,11 +678,10 @@
       },
       "savings": "0,00 €",
       "is_30d_low": false,
-      "history_days": 40,
+      "history_days": 41,
       "spark": [
         96,
         96,
-        96,
         110,
         110,
         110,
@@ -670,13 +705,13 @@
         96,
         96,
         96,
+        130,
         130,
         130,
         130,
         130
       ],
       "spark_dates": [
-        "2026-07-16",
         "2026-07-17",
         "2026-07-18",
         "2026-07-19",
@@ -705,7 +740,8 @@
         "2026-08-16",
         "2026-08-17",
         "2026-08-18",
-        "2026-08-19"
+        "2026-08-19",
+        "2026-08-20"
       ],
       "offers": [
         {
@@ -714,6 +750,98 @@
           "price": "1,30 €/100 g",
           "is_promo": true,
           "brand": "Mövenpick"
+        }
+      ]
+    },
+    {
+      "id": "kartoffeln",
+      "name": "Kartoffeln",
+      "spec": "festkochend, 2,5 kg",
+      "emoji": "🥔",
+      "category": "Gemüse",
+      "cheapest": {
+        "chain": "Rewe",
+        "color": "#cc0000",
+        "price": "0,80 €/kg",
+        "is_promo": true,
+        "brand": null,
+        "raw_label": "Gourmet-Speisekartoffeln · Sorte und Kocheigenschaft: siehe Etikett, Qualität I, je 2,5",
+        "vs": null
+      },
+      "savings": "0,00 €",
+      "is_30d_low": false,
+      "history_days": 41,
+      "spark": [
+        100,
+        100,
+        80,
+        80,
+        80,
+        80,
+        80,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        99,
+        99,
+        99,
+        99,
+        99,
+        99,
+        99,
+        99,
+        99,
+        99,
+        99,
+        120,
+        120,
+        80,
+        80,
+        80
+      ],
+      "spark_dates": [
+        "2026-07-17",
+        "2026-07-18",
+        "2026-07-19",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-24",
+        "2026-07-25",
+        "2026-07-26",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31",
+        "2026-08-01",
+        "2026-08-03",
+        "2026-08-04",
+        "2026-08-05",
+        "2026-08-06",
+        "2026-08-07",
+        "2026-08-09",
+        "2026-08-10",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14",
+        "2026-08-15",
+        "2026-08-16",
+        "2026-08-17",
+        "2026-08-18",
+        "2026-08-19",
+        "2026-08-20"
+      ],
+      "offers": [
+        {
+          "chain": "Rewe",
+          "color": "#cc0000",
+          "price": "0,80 €/kg",
+          "is_promo": true,
+          "brand": null
         }
       ]
     },
@@ -734,7 +862,7 @@
       },
       "savings": "0,00 €",
       "is_30d_low": false,
-      "history_days": 37,
+      "history_days": 38,
       "spark": [
         40,
         40,
@@ -746,6 +874,7 @@
         32,
         32,
         32,
+        24,
         24,
         24,
         24,
@@ -775,7 +904,8 @@
         "2026-08-15",
         "2026-08-17",
         "2026-08-18",
-        "2026-08-19"
+        "2026-08-19",
+        "2026-08-20"
       ],
       "offers": [
         {
@@ -804,8 +934,9 @@
       },
       "savings": "0,00 €",
       "is_30d_low": false,
-      "history_days": 37,
+      "history_days": 38,
       "spark": [
+        290,
         290,
         290,
         290,
@@ -815,7 +946,8 @@
         "2026-08-16",
         "2026-08-17",
         "2026-08-18",
-        "2026-08-19"
+        "2026-08-19",
+        "2026-08-20"
       ],
       "offers": [
         {
@@ -844,7 +976,7 @@
       },
       "savings": "0,00 €",
       "is_30d_low": false,
-      "history_days": 37,
+      "history_days": 38,
       "spark": [
         84,
         84,
@@ -859,6 +991,7 @@
         84,
         84,
         199,
+        84,
         84,
         84,
         84
@@ -879,7 +1012,8 @@
         "2026-08-16",
         "2026-08-17",
         "2026-08-18",
-        "2026-08-19"
+        "2026-08-19",
+        "2026-08-20"
       ],
       "offers": [
         {
@@ -888,94 +1022,6 @@
           "price": "0,84 €/kg",
           "is_promo": true,
           "brand": "Diamant"
-        }
-      ]
-    },
-    {
-      "id": "zwiebeln",
-      "name": "Zwiebeln",
-      "spec": "gelb, 2 kg Netz",
-      "emoji": "🧅",
-      "category": "Gemüse",
-      "cheapest": {
-        "chain": "Kaufland",
-        "color": "#E10915",
-        "price": "0,90 €/kg",
-        "is_promo": true,
-        "brand": null,
-        "raw_label": "Zwiebeln · Dtsch., Kl. II je 2-kg-Sack",
-        "vs": null
-      },
-      "savings": "0,00 €",
-      "is_30d_low": false,
-      "history_days": 40,
-      "spark": [
-        99,
-        99,
-        99,
-        99,
-        99,
-        99,
-        99,
-        106,
-        106,
-        100,
-        100,
-        100,
-        100,
-        100,
-        100,
-        100,
-        94,
-        94,
-        94,
-        94,
-        94,
-        90,
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
-      ],
-      "spark_dates": [
-        "2026-07-10",
-        "2026-07-11",
-        "2026-07-17",
-        "2026-07-18",
-        "2026-07-19",
-        "2026-07-20",
-        "2026-07-21",
-        "2026-07-24",
-        "2026-07-25",
-        "2026-07-26",
-        "2026-07-27",
-        "2026-07-28",
-        "2026-07-29",
-        "2026-07-30",
-        "2026-07-31",
-        "2026-08-01",
-        "2026-08-03",
-        "2026-08-04",
-        "2026-08-05",
-        "2026-08-06",
-        "2026-08-07",
-        "2026-08-13",
-        "2026-08-14",
-        "2026-08-15",
-        "2026-08-16",
-        "2026-08-17",
-        "2026-08-18",
-        "2026-08-19"
-      ],
-      "offers": [
-        {
-          "chain": "Kaufland",
-          "color": "#E10915",
-          "price": "0,90 €/kg",
-          "is_promo": true,
-          "brand": null
         }
       ]
     }
