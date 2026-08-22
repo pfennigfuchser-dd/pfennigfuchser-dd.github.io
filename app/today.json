@@ -2,13 +2,13 @@
   "brand": "Pfennigfuchser Dresden",
   "claim": "Jeden Tag. Jeder Pfennig.",
   "date": "2026-08-22",
-  "generated_at": "2026-08-22T06:58:49+00:00",
-  "basket_savings": "6,41 €",
+  "generated_at": "2026-08-22T07:02:13+00:00",
+  "basket_savings": "6,35 €",
   "n_products": 11,
-  "sum_pack_cheap": "28,16 €",
+  "sum_pack_cheap": "28,22 €",
   "sum_pack_dear": "35,53 €",
   "bon_nr": 38,
-  "fun_fact": "Der teuerste Fehler ist der Laden aus Gewohnheit.",
+  "fun_fact": "Lidl holt heute 6 von 11 Tagessiegen.",
   "is_demo": false,
   "sources": [
     "marktguru"
@@ -127,15 +127,15 @@
       "emoji": "🧈",
       "category": "Molkerei",
       "cheapest": {
-        "chain": "Netto",
-        "color": "#C9A100",
-        "price": "0,40 €/100 g",
+        "chain": "Lidl",
+        "color": "#0050aa",
+        "price": "0,42 €/100 g",
         "is_promo": true,
-        "brand": "Frau Antje",
-        "raw_label": "Frau Antje Beste Butter · gekühlt 250 g",
+        "brand": "Milbona",
+        "raw_label": "Milbona Deutsche Markenbutter · Gekühlt. Je 250 g",
         "vs": "Rewe"
       },
-      "savings": "2,99 €",
+      "savings": "2,93 €",
       "is_30d_low": false,
       "history_days": 43,
       "spark": [
@@ -162,13 +162,13 @@
         40,
         40,
         56,
-        40,
-        40,
-        40,
-        40,
-        40,
-        40,
-        40
+        52,
+        42,
+        42,
+        42,
+        42,
+        42,
+        42
       ],
       "spark_dates": [
         "2026-07-19",
@@ -203,13 +203,6 @@
         "2026-08-22"
       ],
       "offers": [
-        {
-          "chain": "Netto",
-          "color": "#C9A100",
-          "price": "0,40 €/100 g",
-          "is_promo": true,
-          "brand": "Frau Antje"
-        },
         {
           "chain": "Lidl",
           "color": "#0050aa",
