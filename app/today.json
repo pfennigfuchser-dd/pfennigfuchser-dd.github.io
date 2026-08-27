@@ -2,13 +2,13 @@
   "brand": "Pfennigfuchser Dresden",
   "claim": "Jeden Tag. Jeder Pfennig.",
   "date": "2026-08-27",
-  "generated_at": "2026-08-27T06:49:48+00:00",
+  "generated_at": "2026-08-27T06:54:50+00:00",
   "basket_savings": "8,24 €",
-  "n_products": 14,
-  "sum_pack_cheap": "35,18 €",
-  "sum_pack_dear": "42,29 €",
+  "n_products": 13,
+  "sum_pack_cheap": "30,39 €",
+  "sum_pack_dear": "37,50 €",
   "bon_nr": 43,
-  "fun_fact": "14 der 14 Tagessieger sind heute Aktionspreise.",
+  "fun_fact": "13 der 13 Tagessieger sind heute Aktionspreise.",
   "is_demo": false,
   "sources": [
     "marktguru"
@@ -827,66 +827,6 @@
           "price": "1,00 €/kg",
           "is_promo": true,
           "brand": null
-        }
-      ]
-    },
-    {
-      "id": "eier",
-      "name": "Eier",
-      "spec": "10 St., Gr. M, Bodenh.",
-      "emoji": "🥚",
-      "category": "Basis",
-      "cheapest": {
-        "chain": "Kaufland",
-        "color": "#E10915",
-        "price": "3,20 €/10 St.",
-        "is_promo": true,
-        "brand": "K-Bio",
-        "raw_label": "K-Bio Bio-Eier · HKL A, Größe M/L je 15-St.-Packg.",
-        "vs": null
-      },
-      "savings": "0,00 €",
-      "is_30d_low": false,
-      "history_days": 34,
-      "spark": [
-        320,
-        320,
-        320,
-        320,
-        320,
-        320,
-        320,
-        320,
-        320,
-        320,
-        320,
-        320,
-        320,
-        320
-      ],
-      "spark_dates": [
-        "2026-07-24",
-        "2026-07-25",
-        "2026-07-26",
-        "2026-07-27",
-        "2026-07-28",
-        "2026-07-29",
-        "2026-08-20",
-        "2026-08-21",
-        "2026-08-22",
-        "2026-08-23",
-        "2026-08-24",
-        "2026-08-25",
-        "2026-08-26",
-        "2026-08-27"
-      ],
-      "offers": [
-        {
-          "chain": "Kaufland",
-          "color": "#E10915",
-          "price": "3,20 €/10 St.",
-          "is_promo": true,
-          "brand": "K-Bio"
         }
       ]
     },
