@@ -2,13 +2,13 @@
   "brand": "Pfennigfuchser Dresden",
   "claim": "Jeden Tag. Jeder Pfennig.",
   "date": "2026-08-31",
-  "generated_at": "2026-08-31T06:49:26+00:00",
+  "generated_at": "2026-08-31T06:52:41+00:00",
   "basket_savings": "3,57 €",
-  "n_products": 12,
-  "sum_pack_cheap": "28,83 €",
-  "sum_pack_dear": "33,16 €",
+  "n_products": 11,
+  "sum_pack_cheap": "28,38 €",
+  "sum_pack_dear": "32,71 €",
   "bon_nr": 46,
-  "fun_fact": "12 der 12 Tagessieger sind heute Aktionspreise.",
+  "fun_fact": "11 der 11 Tagessieger sind heute Aktionspreise.",
   "is_demo": false,
   "sources": [
     "marktguru"
@@ -675,76 +675,6 @@
           "price": "1,79 €/l",
           "is_promo": true,
           "brand": "Oatly"
-        }
-      ]
-    },
-    {
-      "id": "joghurt",
-      "name": "Naturjoghurt",
-      "spec": "3,5 % Fett",
-      "emoji": "🥣",
-      "category": "Molkerei",
-      "cheapest": {
-        "chain": "Penny",
-        "color": "#CD1414",
-        "price": "0,30 €/100 g",
-        "is_promo": true,
-        "brand": "Naturgut",
-        "raw_label": "Naturgut Bio Naturjoghurt · Naturland, Versch. Sorten, je 150 g",
-        "vs": null
-      },
-      "savings": "0,00 €",
-      "is_30d_low": false,
-      "history_days": 43,
-      "spark": [
-        16,
-        16,
-        16,
-        16,
-        16,
-        18,
-        18,
-        18,
-        18,
-        18,
-        18,
-        18,
-        16,
-        16,
-        16,
-        16,
-        16,
-        30,
-        30
-      ],
-      "spark_dates": [
-        "2026-07-19",
-        "2026-07-20",
-        "2026-07-21",
-        "2026-07-24",
-        "2026-07-25",
-        "2026-07-26",
-        "2026-07-27",
-        "2026-07-28",
-        "2026-07-29",
-        "2026-07-30",
-        "2026-07-31",
-        "2026-08-01",
-        "2026-08-03",
-        "2026-08-04",
-        "2026-08-05",
-        "2026-08-06",
-        "2026-08-07",
-        "2026-08-30",
-        "2026-08-31"
-      ],
-      "offers": [
-        {
-          "chain": "Penny",
-          "color": "#CD1414",
-          "price": "0,30 €/100 g",
-          "is_promo": true,
-          "brand": "Naturgut"
         }
       ]
     },
