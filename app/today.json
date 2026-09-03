@@ -1,84 +1,83 @@
 {
   "brand": "Pfennigfuchser Dresden",
   "claim": "Jeden Tag. Jeder Pfennig.",
-  "date": "2026-09-02",
-  "generated_at": "2026-09-02T06:49:24+00:00",
-  "basket_savings": "3,57 €",
+  "date": "2026-09-03",
+  "generated_at": "2026-09-03T10:45:54+00:00",
+  "basket_savings": "2,03 €",
   "n_products": 11,
-  "sum_pack_cheap": "28,38 €",
-  "sum_pack_dear": "32,71 €",
-  "bon_nr": 48,
-  "fun_fact": "11 der 11 Tagessieger sind heute Aktionspreise.",
+  "sum_pack_cheap": "29,38 €",
+  "sum_pack_dear": "31,63 €",
+  "bon_nr": 49,
+  "fun_fact": "Kartoffeln sind heute so günstig wie seit 30 Tagen nicht.",
   "is_demo": false,
   "sources": [
     "marktguru"
   ],
   "items": [
     {
-      "id": "kaffee",
-      "name": "Kaffee gemahlen",
-      "spec": "Filterkaffee",
-      "emoji": "☕",
-      "category": "Getränke",
+      "id": "quark",
+      "name": "Speisequark",
+      "spec": "Magerstufe",
+      "emoji": "🥣",
+      "category": "Molkerei",
       "cheapest": {
-        "chain": "Kaufland",
-        "color": "#E10915",
-        "price": "1,10 €/100 g",
+        "chain": "Netto",
+        "color": "#C9A100",
+        "price": "0,28 €/100 g",
         "is_promo": true,
-        "brand": "Eduscho",
-        "raw_label": "Eduscho Lieblingskaffee · vollmundig und intensiv, gemahlen je 500-g-Packg.",
-        "vs": "Rewe"
+        "brand": "Gutes Land",
+        "raw_label": "Gutes Land Speisequark · gekühlt, 20% Fett i. Tr. 250 g",
+        "vs": "Lidl"
       },
-      "savings": "1,50 €",
+      "savings": "0,60 €",
       "is_30d_low": false,
-      "history_days": 54,
+      "history_days": 52,
       "spark": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90,
-        90,
-        96,
-        96,
-        110,
-        96,
-        96,
-        96,
-        130,
-        130,
-        130,
-        130,
-        130,
-        130,
-        130,
-        118,
-        118,
-        118,
-        118,
-        118,
-        118,
-        110,
-        110,
-        110,
-        110
+        40,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        28,
+        28,
+        28,
+        28,
+        28
       ],
       "spark_dates": [
+        "2026-07-29",
+        "2026-07-30",
         "2026-07-31",
         "2026-08-01",
         "2026-08-03",
         "2026-08-04",
         "2026-08-05",
-        "2026-08-06",
-        "2026-08-07",
         "2026-08-09",
         "2026-08-10",
         "2026-08-12",
         "2026-08-13",
         "2026-08-14",
         "2026-08-15",
-        "2026-08-16",
         "2026-08-17",
         "2026-08-18",
         "2026-08-19",
@@ -94,36 +93,23 @@
         "2026-08-30",
         "2026-08-31",
         "2026-09-01",
-        "2026-09-02"
+        "2026-09-02",
+        "2026-09-03"
       ],
       "offers": [
         {
-          "chain": "Kaufland",
-          "color": "#E10915",
-          "price": "1,10 €/100 g",
+          "chain": "Netto",
+          "color": "#C9A100",
+          "price": "0,28 €/100 g",
           "is_promo": true,
-          "brand": "Eduscho"
+          "brand": "Gutes Land"
         },
         {
           "chain": "Lidl",
           "color": "#0050aa",
-          "price": "1,30 €/100 g",
+          "price": "0,40 €/100 g",
           "is_promo": true,
-          "brand": "Mövenpick"
-        },
-        {
-          "chain": "Penny",
-          "color": "#CD1414",
-          "price": "1,40 €/100 g",
-          "is_promo": true,
-          "brand": "Dallmayr"
-        },
-        {
-          "chain": "Rewe",
-          "color": "#cc0000",
-          "price": "1,40 €/100 g",
-          "is_promo": true,
-          "brand": "Mövenpick"
+          "brand": "Milbona"
         }
       ]
     },
@@ -142,11 +128,10 @@
         "raw_label": "Heimat Äpfel · Deutschland, Kl. II 2 kg Beutel",
         "vs": "Kaufland"
       },
-      "savings": "1,05 €",
+      "savings": "0,51 €",
       "is_30d_low": false,
-      "history_days": 54,
+      "history_days": 55,
       "spark": [
-        90,
         90,
         90,
         90,
@@ -175,10 +160,10 @@
         74,
         74,
         74,
+        74,
         74
       ],
       "spark_dates": [
-        "2026-07-31",
         "2026-08-01",
         "2026-08-03",
         "2026-08-04",
@@ -207,7 +192,8 @@
         "2026-08-30",
         "2026-08-31",
         "2026-09-01",
-        "2026-09-02"
+        "2026-09-02",
+        "2026-09-03"
       ],
       "offers": [
         {
@@ -220,77 +206,76 @@
         {
           "chain": "Kaufland",
           "color": "#E10915",
-          "price": "1,79 €/kg",
+          "price": "1,25 €/kg",
           "is_promo": true,
           "brand": null
         }
       ]
     },
     {
-      "id": "quark",
-      "name": "Speisequark",
-      "spec": "Magerstufe",
-      "emoji": "🥣",
-      "category": "Molkerei",
+      "id": "kaffee",
+      "name": "Kaffee gemahlen",
+      "spec": "Filterkaffee",
+      "emoji": "☕",
+      "category": "Getränke",
       "cheapest": {
-        "chain": "Netto",
-        "color": "#C9A100",
-        "price": "0,28 €/100 g",
+        "chain": "Lidl",
+        "color": "#0050aa",
+        "price": "1,30 €/100 g",
         "is_promo": true,
-        "brand": "Gutes Land",
-        "raw_label": "Gutes Land Speisequark · gekühlt, 20% Fett i. Tr. 250 g",
-        "vs": "Lidl"
+        "brand": "Mövenpick",
+        "raw_label": "Mövenpick Kaffee Der Himmlische · Gemahlen. Je 500 g",
+        "vs": "Rewe"
       },
-      "savings": "0,60 €",
+      "savings": "0,50 €",
       "is_30d_low": false,
-      "history_days": 51,
+      "history_days": 55,
       "spark": [
-        40,
-        40,
-        32,
-        32,
-        32,
-        32,
-        32,
-        32,
-        24,
-        24,
-        24,
-        24,
-        24,
-        24,
-        24,
-        24,
-        24,
-        24,
-        24,
-        24,
-        24,
-        24,
-        24,
-        24,
-        24,
-        24,
-        28,
-        28,
-        28,
-        28
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        96,
+        96,
+        110,
+        96,
+        96,
+        96,
+        130,
+        130,
+        130,
+        130,
+        130,
+        130,
+        130,
+        118,
+        118,
+        118,
+        118,
+        118,
+        118,
+        110,
+        110,
+        110,
+        110,
+        130
       ],
       "spark_dates": [
-        "2026-07-28",
-        "2026-07-29",
-        "2026-07-30",
-        "2026-07-31",
         "2026-08-01",
         "2026-08-03",
         "2026-08-04",
         "2026-08-05",
+        "2026-08-06",
+        "2026-08-07",
         "2026-08-09",
         "2026-08-10",
         "2026-08-12",
         "2026-08-13",
         "2026-08-14",
         "2026-08-15",
+        "2026-08-16",
         "2026-08-17",
         "2026-08-18",
         "2026-08-19",
@@ -306,22 +291,30 @@
         "2026-08-30",
         "2026-08-31",
         "2026-09-01",
-        "2026-09-02"
+        "2026-09-02",
+        "2026-09-03"
       ],
       "offers": [
         {
-          "chain": "Netto",
-          "color": "#C9A100",
-          "price": "0,28 €/100 g",
-          "is_promo": true,
-          "brand": "Gutes Land"
-        },
-        {
           "chain": "Lidl",
           "color": "#0050aa",
-          "price": "0,40 €/100 g",
+          "price": "1,30 €/100 g",
           "is_promo": true,
-          "brand": "Milbona"
+          "brand": "Mövenpick"
+        },
+        {
+          "chain": "Penny",
+          "color": "#CD1414",
+          "price": "1,40 €/100 g",
+          "is_promo": true,
+          "brand": "Dallmayr"
+        },
+        {
+          "chain": "Rewe",
+          "color": "#cc0000",
+          "price": "1,40 €/100 g",
+          "is_promo": true,
+          "brand": "Mövenpick"
         }
       ]
     },
@@ -337,17 +330,16 @@
         "price": "0,88 €/kg",
         "is_promo": true,
         "brand": null,
-        "raw_label": "Bananen · 1 kg",
+        "raw_label": "Bananen · kolumb. Bananen, lose je kg",
         "vs": "Lidl"
       },
       "savings": "0,41 €",
       "is_30d_low": false,
-      "history_days": 53,
+      "history_days": 54,
       "spark": [
         169,
         169,
         169,
-        169,
         179,
         100,
         100,
@@ -364,6 +356,7 @@
         179,
         179,
         179,
+        88,
         88,
         88,
         88,
@@ -376,7 +369,6 @@
         88
       ],
       "spark_dates": [
-        "2026-07-19",
         "2026-07-20",
         "2026-07-21",
         "2026-07-24",
@@ -405,7 +397,8 @@
         "2026-08-30",
         "2026-08-31",
         "2026-09-01",
-        "2026-09-02"
+        "2026-09-02",
+        "2026-09-03"
       ],
       "offers": [
         {
@@ -448,9 +441,8 @@
       },
       "savings": "0,01 €",
       "is_30d_low": false,
-      "history_days": 54,
+      "history_days": 55,
       "spark": [
-        56,
         56,
         56,
         56,
@@ -479,10 +471,10 @@
         40,
         40,
         40,
+        40,
         40
       ],
       "spark_dates": [
-        "2026-07-30",
         "2026-07-31",
         "2026-08-01",
         "2026-08-03",
@@ -511,7 +503,8 @@
         "2026-08-30",
         "2026-08-31",
         "2026-09-01",
-        "2026-09-02"
+        "2026-09-02",
+        "2026-09-03"
       ],
       "offers": [
         {
@@ -547,7 +540,7 @@
       },
       "savings": "0,00 €",
       "is_30d_low": false,
-      "history_days": 40,
+      "history_days": 41,
       "spark": [
         320,
         320,
@@ -562,6 +555,7 @@
         320,
         320,
         320,
+        270,
         270,
         270,
         270,
@@ -584,7 +578,8 @@
         "2026-08-30",
         "2026-08-31",
         "2026-09-01",
-        "2026-09-02"
+        "2026-09-02",
+        "2026-09-03"
       ],
       "offers": [
         {
@@ -613,7 +608,7 @@
       },
       "savings": "0,00 €",
       "is_30d_low": false,
-      "history_days": 38,
+      "history_days": 39,
       "spark": [
         90,
         90,
@@ -640,6 +635,7 @@
         90,
         90,
         90,
+        179,
         179,
         179,
         179,
@@ -674,7 +670,8 @@
         "2026-08-30",
         "2026-08-31",
         "2026-09-01",
-        "2026-09-02"
+        "2026-09-02",
+        "2026-09-03"
       ],
       "offers": [
         {
@@ -695,18 +692,17 @@
       "cheapest": {
         "chain": "Kaufland",
         "color": "#E10915",
-        "price": "1,20 €/kg",
+        "price": "0,60 €/kg",
         "is_promo": true,
-        "brand": "Markt Frisch",
-        "raw_label": "Markt Frisch Speisekartoffeln · Dtsch. versch. Kocheigenschaften, Sorten laut Auszeichnung,",
+        "brand": null,
+        "raw_label": "Speisekartoffeln XXL · vorwiegend fest-kochend, Sorte laut Auszeichnung, Qualität I",
         "vs": null
       },
       "savings": "0,00 €",
-      "is_30d_low": false,
-      "history_days": 54,
+      "is_30d_low": true,
+      "history_days": 55,
       "spark": [
         100,
-        100,
         99,
         99,
         99,
@@ -734,10 +730,10 @@
         120,
         120,
         120,
-        120
+        120,
+        60
       ],
       "spark_dates": [
-        "2026-07-31",
         "2026-08-01",
         "2026-08-03",
         "2026-08-04",
@@ -766,15 +762,16 @@
         "2026-08-30",
         "2026-08-31",
         "2026-09-01",
-        "2026-09-02"
+        "2026-09-02",
+        "2026-09-03"
       ],
       "offers": [
         {
           "chain": "Kaufland",
           "color": "#E10915",
-          "price": "1,20 €/kg",
+          "price": "0,60 €/kg",
           "is_promo": true,
-          "brand": "Markt Frisch"
+          "brand": null
         }
       ]
     },
@@ -795,7 +792,7 @@
       },
       "savings": "0,00 €",
       "is_30d_low": false,
-      "history_days": 51,
+      "history_days": 52,
       "spark": [
         290,
         290,
@@ -804,6 +801,7 @@
         290,
         290,
         290,
+        160,
         160,
         160,
         160,
@@ -820,7 +818,8 @@
         "2026-08-30",
         "2026-08-31",
         "2026-09-01",
-        "2026-09-02"
+        "2026-09-02",
+        "2026-09-03"
       ],
       "offers": [
         {
@@ -849,41 +848,40 @@
       },
       "savings": "0,00 €",
       "is_30d_low": false,
-      "history_days": 40,
+      "history_days": 41,
       "spark": [
         14,
         14,
         14,
         14,
         14,
+        30,
+        30,
+        30,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
         14,
-        30,
-        30,
-        30,
-        20,
-        20,
-        20,
-        20,
-        20,
-        20,
-        20,
-        20,
-        20,
-        20,
-        20,
-        18,
-        18,
-        18,
-        18,
-        18,
-        18,
         14,
         14,
         14,
         14
       ],
       "spark_dates": [
-        "2026-07-24",
         "2026-07-25",
         "2026-07-26",
         "2026-07-27",
@@ -912,7 +910,8 @@
         "2026-08-30",
         "2026-08-31",
         "2026-09-01",
-        "2026-09-02"
+        "2026-09-02",
+        "2026-09-03"
       ],
       "offers": [
         {
@@ -941,9 +940,8 @@
       },
       "savings": "0,00 €",
       "is_30d_low": false,
-      "history_days": 54,
+      "history_days": 55,
       "spark": [
-        106,
         100,
         100,
         100,
@@ -969,13 +967,13 @@
         74,
         74,
         74,
+        90,
         90,
         90,
         90,
         90
       ],
       "spark_dates": [
-        "2026-07-25",
         "2026-07-26",
         "2026-07-27",
         "2026-07-28",
@@ -1004,7 +1002,8 @@
         "2026-08-30",
         "2026-08-31",
         "2026-09-01",
-        "2026-09-02"
+        "2026-09-02",
+        "2026-09-03"
       ],
       "offers": [
         {
